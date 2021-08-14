@@ -45,8 +45,24 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    'nuxt-fontawesome'
   ],
+
+  buefy: {
+    materialDesignIcons: false,
+    defaultIconPack: 'fas',
+    defaultIconComponent: 'font-awesome-icon'
+  },
+
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
