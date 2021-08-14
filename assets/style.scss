@@ -1,0 +1,28 @@
+@import "~bulma/sass/utilities/_all";
+
+
+
+$primary: #d23232;
+$primary-invert: findColorInvert($primary);
+$twitter: #4099FF;
+$twitter-invert: findColorInvert($twitter);
+$black: #141418;
+$white: #ececec;
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($black, $white),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+    "twitter": ($twitter, $twitter-invert)
+);
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+@import "~bulma";
+@import "~buefy/src/scss/buefy.scss";
+@import "~buefy/src/scss/utils/_all.scss";
