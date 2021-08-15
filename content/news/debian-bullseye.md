@@ -11,7 +11,7 @@ sudo apt install exadrums
 
 ## What does this mean?
 
-Well, if you have about 5 MB to spare, it means you can install exadrums from the command line directly.
+Well, if you have about 5 MB to spare, you can install exadrums from the command line directly.
 Here's what you see from a fresh Debian Bullseye install:
 
 ![image](/images/debian-bullseye/Screenshot_2021-08-15_11-14-02.png)

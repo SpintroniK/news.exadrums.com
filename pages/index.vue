@@ -14,7 +14,7 @@
           <br>
           <div class="level-right">
             <a class="level-item">
-              <NuxtLink :to="`/news/${article.slug}`">
+              <NuxtLink :to="`/article/${article.slug}`">
                 <b-button icon-right="book-reader">
                   Continue reading
                 </b-button>
