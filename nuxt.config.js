@@ -1,4 +1,22 @@
+const fs = require('fs')
+const path = require('path')
+
 export default {
+  generate: {
+    fallback: true,
+    crawler: true,
+    subFolders: true,
+    routes () {
+      const contentDir = `${__dirname}/content/news/`
+      const routes = []
+      fs.readdirSync(contentDir).forEach(file => {
+        routes.push(`article/${path.parse(file).name}`)
+      })
+
+      console.log(`Generate static routes: ${routes}`)
+      return routes
+    }
+  },
   server:
   {
     host: '0.0.0.0'
