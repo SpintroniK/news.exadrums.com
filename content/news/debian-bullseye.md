@@ -16,7 +16,7 @@ Here's what you see from a fresh Debian Bullseye install:
 
 ![image](/images/debian-bullseye/Screenshot_2021-08-15_11-14-02.png)
 
-No more compiling, etc. apt handles everything for you!
+No more compiling, etc. `apt` handles everything for you!
 
 ## What about Raspberry Pi OS?
 

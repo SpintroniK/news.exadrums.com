@@ -3,6 +3,10 @@ export default {
   {
     host: '0.0.0.0'
   },
+  router:
+  {
+    base: '/'
+  },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -73,5 +77,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    publicPath: (process.env.NODE_ENV !== 'production')? '' : './'
   }
 }
