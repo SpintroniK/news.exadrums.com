@@ -2,7 +2,9 @@
   <div class="container">
     <NuxtLink :to="`/?page=${prevPage}`">
       <b-button icon-left="arrow-left">
-        Back
+        <span class="small-caps">
+          Back
+        </span>
       </b-button>
     </NuxtLink>
     <hr>
@@ -14,6 +16,29 @@
       <h1>{{ article.title }}</h1>
       <nuxt-content :document="article" />
     </article>
+    <hr>
+    <nav class="level is-mobile">
+      <div class="level-left">
+        <div v-if="prev !== null">
+          <NuxtLink :to="`/article/${prev.slug}`">
+            <b-button class="level-item" icon-left="arrow-left">
+              <span class="small-caps">
+                {{ prev === null ? '' : prev.title }}
+              </span>
+            </b-button>
+          </NuxtLink>
+        </div>
+      </div>
+      <div class="level-right">
+        <div v-if="next !== null">
+          <NuxtLink v-if="next !== null" :to="`/article/${next.slug}`">
+            <b-button class="level-item small-caps" icon-right="arrow-right">
+              {{ next === null ? '' : next.title }}
+            </b-button>
+          </NuxtLink>
+        </div>
+      </div>
+    </nav>
   </div>
 </template>
 
@@ -31,9 +56,11 @@ export default {
   },
   async asyncData ({ $content, params }) {
     const article = await $content('news', params.slug).fetch()
-
+    const [prev, next] = await $content('news').only(['title']).sortBy('date', 'asc').surround(params.slug).fetch()
     return {
-      article
+      article,
+      prev,
+      next
     }
   },
   data () {
@@ -42,7 +69,7 @@ export default {
     }
   },
   async mounted () {
-    const articles = await this.$content('news').sortBy('date', 'desc').only('slug').fetch()
+    const articles = await this.$content('news').sortBy('date', 'desc').only(['slug']).fetch()
     const slugs = articles.map(a => a.slug)
     const index = slugs.indexOf(this.$route.params.slug)
 
@@ -52,3 +79,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  .small-caps {
+    font-variant: small-caps;
+  }
+</style>

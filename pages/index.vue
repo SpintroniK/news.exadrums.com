@@ -7,7 +7,9 @@
       <article class="media">
         <div class="media-content">
           <p>
-            <strong class="title is-4">{{ article.title }}</strong> &nbsp; <small class="has-text-primary">{{ article.createdAt | formatDate }}</small>
+            <strong class="title is-4">{{ article.title }}</strong>
+            <br>
+            <small class="has-text-primary">{{ article.createdAt | formatDate }}</small>
           </p>
           <br>
           <nuxt-content :document="{ body: article.excerpt }" />
