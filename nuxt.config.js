@@ -1,22 +1,4 @@
-const fs = require('fs')
-const path = require('path')
-
 export default {
-  generate: {
-    fallback: true,
-    crawler: true,
-    subFolders: true,
-    routes () {
-      const contentDir = `${__dirname}/content/news/`
-      const routes = []
-      fs.readdirSync(contentDir).forEach(file => {
-        routes.push(`article/${path.parse(file).name}`)
-      })
-
-      console.log(`Generate static routes: ${routes}`)
-      return routes
-    }
-  },
   server:
   {
     host: '0.0.0.0'
@@ -74,6 +56,18 @@ export default {
     '@nuxt/content',
     'nuxt-fontawesome'
   ],
+
+  generate: {
+    fallback: true,
+    crawler: true,
+    subFolders: true,
+    async routes () {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true }).only(['path']).fetch()
+
+      return files.map(file => file.path === '/index' ? '/' : file.path)
+    }
+  },
 
   buefy: {
     materialDesignIcons: false,

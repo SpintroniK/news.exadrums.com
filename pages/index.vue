@@ -70,7 +70,7 @@ export default {
     }
   },
   async mounted () {
-    const articles = await this.$content('news').only('slug').fetch()
+    const articles = await this.$content('article').only('slug').fetch()
     this.newsCount = articles.length
     this.currentPage = 'page' in this.$route.query ? parseInt(this.$route.query.page) : 1
     await this.fetchNews(this.currentPage)
@@ -78,7 +78,7 @@ export default {
   methods:
   {
     async fetchNews (page) {
-      this.news = await this.$content('news').sortBy('date', 'desc').skip(this.perPage * (page - 1)).limit(this.perPage).fetch()
+      this.news = await this.$content('article').sortBy('date', 'desc').skip(this.perPage * (page - 1)).limit(this.perPage).fetch()
     },
     async changePage (page) {
       this.$router.push({ name: 'index', query: { page } })

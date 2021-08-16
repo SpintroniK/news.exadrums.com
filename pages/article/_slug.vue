@@ -55,8 +55,8 @@ export default {
     }
   },
   async asyncData ({ $content, params }) {
-    const article = await $content('news', params.slug).fetch()
-    const [prev, next] = await $content('news').only(['title']).sortBy('date', 'asc').surround(params.slug).fetch()
+    const article = await $content('article', params.slug).fetch()
+    const [prev, next] = await $content('article').only(['title']).sortBy('date', 'asc').surround(params.slug).fetch()
     return {
       article,
       prev,
@@ -69,7 +69,7 @@ export default {
     }
   },
   async mounted () {
-    const articles = await this.$content('news').sortBy('date', 'desc').only(['slug']).fetch()
+    const articles = await this.$content('article').sortBy('date', 'desc').only(['slug']).fetch()
     const slugs = articles.map(a => a.slug)
     const index = slugs.indexOf(this.$route.params.slug)
 
