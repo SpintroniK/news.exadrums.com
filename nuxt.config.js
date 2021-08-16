@@ -1,3 +1,45 @@
+let posts = [];
+
+const constructFeedItem = (post, dir, hostname) => {  
+  const url = `${hostname}/${dir}/${post.slug}`;
+  return {
+    title: post.title,
+    id: url,
+    link: url,
+    description: post.description,
+    content: post.bodyPlainText
+  }
+} 
+
+const create = async (feed, args) => {
+  const [filePath, ext, isLatest] = args;  
+  const hostname = 'https://news.exadrums.com';
+  feed.options = {
+    title: "exadrums - news",
+    description: "eXaDrums project: latest news.",
+    link: `${hostname}/${isLatest ? 'latest':'feed'}.${ext}`
+  }
+  const { $content } = require('@nuxt/content')
+  if (posts === null || posts.length === 0)
+    posts = await $content(filePath).fetch();
+
+  if (isLatest)
+  {
+    const post = await $content(filePath).sortBy('createdAt', 'desc').limit(1).fetch();
+    const feedItem = await constructFeedItem(post[0], filePath, hostname);
+    feed.addItem(feedItem);
+    return feed;
+  }
+
+  for (const post of posts) {
+    const feedItem = await constructFeedItem(post, filePath, hostname);
+    feed.addItem(feedItem);
+  }
+  return feed;
+}
+
+
+
 export default {
   server:
   {
@@ -54,9 +96,39 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/feed',
     'nuxt-fontawesome'
   ],
-
+  feed: [
+    {
+      path: '/feed.xml',
+      create,
+      cacheTime: 1000 * 60 * 15,
+      type: 'rss2',
+      data: [ 'article', 'xml', false]
+    },
+    {
+      path: '/feed.json',
+      create,
+      cacheTime: 1000 * 60 * 15,
+      type: 'json1',
+      data: [ 'article', 'json', false ]
+    },
+    {
+      path: '/latest.json',
+      create,
+      cacheTime: 1000 * 60 * 15,
+      type: 'json1',
+      data: [ 'article', 'json', true]
+    },
+  ],
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {      
+        document.bodyPlainText = document.text;
+      }
+    },
+  },
   generate: {
     fallback: true,
     crawler: true,

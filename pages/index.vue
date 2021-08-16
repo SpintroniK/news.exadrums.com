@@ -78,7 +78,7 @@ export default {
   methods:
   {
     async fetchNews (page) {
-      this.news = await this.$content('article').sortBy('date', 'desc').skip(this.perPage * (page - 1)).limit(this.perPage).fetch()
+      this.news = await this.$content('article').sortBy('createdAt', 'desc').skip(this.perPage * (page - 1)).limit(this.perPage).fetch()
     },
     async changePage (page) {
       this.$router.push({ name: 'index', query: { page } })
