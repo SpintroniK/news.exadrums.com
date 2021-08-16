@@ -4,7 +4,7 @@
         <title>exadrums - news</title>
         <link>https://news.exadrums.com/feed.xml</link>
         <description>eXaDrums project: latest news.</description>
-        <lastBuildDate>Mon, 16 Aug 2021 14:23:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Aug 2021 19:43:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -15,8 +15,9 @@
 sudo apt install exadrums
 ]]></description>
             <content:encoded><![CDATA[
-Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and potentially some other Debian-based distros), you can install exadrums via `apt`, i.e.: 
-```
+Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and potentially some other Debian-based distros), you can install exadrums via `apt`, i.e.:
+
+```bash
 sudo apt install exadrums
 ```
 <!--more-->
@@ -35,7 +36,8 @@ No more compiling, etc. `apt` handles everything for you!
 It's only been a few hours since Debian 11 has been released, so there's no news about the next Raspberry Pi OS (formerly Raspbian). Let's give them some time to publish a proper release.
 I can already tell you that you'll get the same version of exadrums as Debian in Raspberry Pi OS, it'll be exadrums 0.6.0.
 
-Anyhow, when the new Raspberry Pi OS will be released, you'll be able to install exadrums via `apt` on your Raspberry Pi. ]]></content:encoded>
+Anyhow, when the new Raspberry Pi OS will be released, you'll be able to install exadrums via `apt` on your Raspberry Pi.
+]]></content:encoded>
         </item>
     </channel>
 </rss>
