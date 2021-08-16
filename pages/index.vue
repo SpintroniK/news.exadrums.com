@@ -18,7 +18,9 @@
             <a class="level-item">
               <NuxtLink :to="`/article/${article.slug}`">
                 <b-button icon-right="book-reader">
-                  Continue reading
+                  <span class="small-caps">
+                    Continue reading
+                  </span>
                 </b-button>
               </NuxtLink>
             </a>
@@ -29,6 +31,7 @@
     <div>
       <b-pagination
         v-model="currentPage"
+        order="is-centered"
         :total="newsCount"
         :per-page="perPage"
         aria-next-label="Next page"
@@ -87,3 +90,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  .small-caps {
+    font-variant: small-caps;
+  }
+</style>

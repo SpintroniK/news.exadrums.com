@@ -23,7 +23,7 @@
           <NuxtLink :to="`/article/${prev.slug}`">
             <b-button class="level-item" icon-left="arrow-left">
               <span class="small-caps">
-                {{ prev === null ? '' : prev.title }}
+                {{ prev.title }}
               </span>
             </b-button>
           </NuxtLink>
@@ -32,8 +32,10 @@
       <div class="level-right">
         <div v-if="next !== null">
           <NuxtLink v-if="next !== null" :to="`/article/${next.slug}`">
-            <b-button class="level-item small-caps" icon-right="arrow-right">
-              {{ next === null ? '' : next.title }}
+            <b-button class="level-item" icon-right="arrow-right">
+              <span class="small-caps">
+                {{ next.title }}
+              </span>
             </b-button>
           </NuxtLink>
         </div>
