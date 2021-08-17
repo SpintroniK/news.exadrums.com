@@ -4,7 +4,7 @@
         <title>exadrums - news</title>
         <link>https://news.exadrums.com/feed.xml</link>
         <description>eXaDrums project: latest news.</description>
-        <lastBuildDate>Mon, 16 Aug 2021 19:43:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Aug 2021 12:42:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -37,7 +37,10 @@ It's only been a few hours since Debian 11 has been released, so there's no news
 I can already tell you that you'll get the same version of exadrums as Debian in Raspberry Pi OS, it'll be exadrums 0.6.0.
 
 Anyhow, when the new Raspberry Pi OS will be released, you'll be able to install exadrums via `apt` on your Raspberry Pi.
-]]></content:encoded>
+
+## Using Debian Bullseye on a Raspberry Pi
+
+If you don't want to wait until the version of Raspberry Pi OS comes out, you can install Debian Bullseye on your Raspberry Pi using one of the images available at: [ Tested images](https://raspi.debian.net/tested-images/). I haven't tried any of them, but they've been tested, so they should work.]]></content:encoded>
         </item>
     </channel>
 </rss>
