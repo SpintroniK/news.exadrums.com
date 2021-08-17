@@ -26,3 +26,12 @@ $link-focus-border: $primary;
 @import "~bulma";
 @import "~buefy/src/scss/buefy.scss";
 @import "~buefy/src/scss/utils/_all.scss";
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.15s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}

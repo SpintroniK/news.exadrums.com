@@ -9,7 +9,14 @@
           <p>
             <strong class="title is-4">{{ article.title }}</strong>
             <br>
-            <small class="has-text-primary">{{ article.createdAt | formatDate }}</small>
+            <b-tooltip :label="article.createdAt | fullDate" position="is-bottom">
+              <small class="has-text-primary">{{ article.createdAt | formatDate }}</small>
+            </b-tooltip>
+            <b-tooltip v-if="article.updatedAt != article.createdAt" :label="article.updatedAt | fullDate" position="is-bottom">
+              <small class="has-text-primary is-italic">
+                &#8211; Updated {{ article.updatedAt | formatDate }}
+              </small>
+            </b-tooltip>
           </p>
           <br>
           <nuxt-content :document="{ body: article.excerpt }" />
@@ -55,6 +62,9 @@ export default {
     formatDate (dateStr) {
       const date = new Date(dateStr)
       return date.toLocaleDateString(dateFormat, dateOptions)
+    },
+    fullDate (dateStr) {
+      return new Date(dateStr).toLocaleString()
     }
   },
   data () {
