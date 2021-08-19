@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <NuxtLink :to="`/?page=${prevPage}`">
+    <NuxtLink :to="prevPage === 1? '/' : `/?page=${prevPage}`">
       <b-button icon-left="arrow-left">
         <span class="small-caps">
           Back
