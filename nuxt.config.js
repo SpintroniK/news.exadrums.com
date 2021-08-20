@@ -7,7 +7,9 @@ const constructFeedItem = (post, dir, hostname) => {
     id: url,
     link: url,
     description: post.description,
-    content: post.bodyPlainText
+    content: post.bodyPlainText,
+    date: new Date(post.updatedAt),
+    published: new Date(post.createdAt)
   }
 } 
 
