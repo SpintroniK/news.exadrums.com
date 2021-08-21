@@ -1,8 +1,5 @@
 <template>
   <div class="container">
-    <h1 class="title">
-      Latest news
-    </h1>
     <div v-for="article in news" :key="article.slug" class="box">
       <article class="media">
         <div class="media-content">

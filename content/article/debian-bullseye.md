@@ -1,10 +1,10 @@
 ---
 title: Debian 11 - Bullseye
 createdAt: 2021-08-14 12:08:07
-updatedAt: 2021-08-17 11:36:56
+updatedAt: 2021-08-21 16:17:58
 ---
 
-Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and potentially some other Debian-based distros), you can install exadrums via `apt`, i.e.:
+Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and potentially some [other distros](https://repology.org/project/exadrums/packages)), you can install exadrums via `apt`, i.e.:
 
 ```bash
 sudo apt install exadrums
