@@ -4,7 +4,7 @@
         <title>exadrums - news</title>
         <link>https://news.exadrums.com/feed.xml</link>
         <description>eXaDrums project: latest news.</description>
-        <lastBuildDate>Fri, 20 Aug 2021 13:19:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Aug 2021 16:19:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -12,11 +12,11 @@
             <link>https://news.exadrums.com/article/debian-bullseye</link>
             <guid>https://news.exadrums.com/article/debian-bullseye</guid>
             <pubDate>Sat, 14 Aug 2021 12:08:07 GMT</pubDate>
-            <description><![CDATA[Today, Debian 11 (Bullseye), has been officially released. This is a great news for exadrums, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and potentially some other Debian-based distros), you can install exadrums via apt, i.e.:
+            <description><![CDATA[Today, Debian 11 (Bullseye), has been officially released. This is a great news for exadrums, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and some other distros), you can install exadrums via apt, i.e.:
 sudo apt install exadrums
 ]]></description>
             <content:encoded><![CDATA[
-Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and potentially some other Debian-based distros), you can install exadrums via `apt`, i.e.:
+Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and some [other distros](https://repology.org/project/exadrums/packages)), you can install exadrums via `apt`, i.e.:
 
 ```bash
 sudo apt install exadrums
