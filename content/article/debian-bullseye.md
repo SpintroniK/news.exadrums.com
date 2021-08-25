@@ -20,10 +20,6 @@ Here's what you see from a fresh Debian Bullseye install:
 
 No more compiling, etc. `apt` handles everything for you!
 
-$$
-L = \frac{1}{2} \rho v^2 S C_L
-$$
-
 ## What about Raspberry Pi OS?
 
 It's only been a few hours since Debian 11 has been released, so there's no news about the next Raspberry Pi OS (formerly Raspbian). Let's give them some time to publish a proper release.
