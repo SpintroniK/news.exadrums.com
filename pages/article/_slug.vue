@@ -9,16 +9,26 @@
     </NuxtLink>
     <hr>
     <article class="content">
-      <b-tooltip :label="article.createdAt | fullDate" position="is-bottom">
+      <b-tooltip :label="article.createdAt | fullDate" position="is-bottom" type="is-dark">
         <small class="has-text-primary">{{ article.createdAt | formatDate }}</small>
       </b-tooltip>
-      <b-tooltip v-if="article.updatedAt != article.createdAt" :label="article.updatedAt | fullDate" position="is-bottom">
+      <b-tooltip v-if="article.updatedAt != article.createdAt" :label="article.updatedAt | fullDate" position="is-bottom" type="is-dark">
         <small class="has-text-primary is-italic">
           &#8211; Updated {{ article.updatedAt | formatDate }}
         </small>
       </b-tooltip>
       <br>
       <h1>{{ article.title }}</h1>
+      <!-- <ul>
+        <li
+          v-for="link of article.toc"
+          :key="link.id"
+        >
+          <NuxtLink :to="`#${link.id}`">
+            {{ link.text }}
+          </NuxtLink>
+        </li>
+      </ul> -->
       <nuxt-content :document="article" />
     </article>
     <hr>

@@ -6,10 +6,10 @@
           <p>
             <strong class="title is-4">{{ article.title }}</strong>
             <br>
-            <b-tooltip :label="article.createdAt | fullDate" position="is-bottom">
+            <b-tooltip :label="article.createdAt | fullDate" position="is-bottom" type="is-dark">
               <small class="has-text-primary">{{ article.createdAt | formatDate }}</small>
             </b-tooltip>
-            <b-tooltip v-if="article.updatedAt != article.createdAt" :label="article.updatedAt | fullDate" position="is-bottom">
+            <b-tooltip v-if="article.updatedAt != article.createdAt" :label="article.updatedAt | fullDate" position="is-bottom" type="is-dark">
               <small class="has-text-primary is-italic">
                 &#8211; Updated {{ article.updatedAt | formatDate }}
               </small>
