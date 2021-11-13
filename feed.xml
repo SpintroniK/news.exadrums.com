@@ -4,7 +4,7 @@
         <title>exadrums - news</title>
         <link>https://news.exadrums.com/feed.xml</link>
         <description>eXaDrums project: latest news.</description>
-        <lastBuildDate>Sun, 17 Oct 2021 09:57:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Nov 2021 13:18:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
         <item>
@@ -221,6 +221,36 @@ The plan is to develop an [electron](https://www.electronjs.org/) application, t
 I don't think it will replace it, but it'll be used by people who want a more connected experience.
 
 Imagine a user interface than leverages CSS transitions, animations, together with [vuejs](https://vuejs.org/), and javascript's fetch api. I think that can make the development easier, and faster. And hopefully drummers that use exadrums will highly benefit from that!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Raspberry Pi OS - Bullseye]]></title>
+            <link>https://news.exadrums.com/article/raspberry-pi-os-bullseye</link>
+            <guid>https://news.exadrums.com/article/raspberry-pi-os-bullseye</guid>
+            <pubDate>Fri, 12 Nov 2021 18:07:46 GMT</pubDate>
+            <description><![CDATA[Remember this article about exadrums becoming an official Debian package?
+It's now time to play (exa)drums on your Raspberry Pi.
+The Raspberry Pi Foundation released the latest Raspberry Pi OS bullseye a few days ago, and as you may have guessed, it includes exadrums packages:
+
+Now, you simply have to type sudo apt install exadrums into a terminal to install exadrums on your Raspberry Pi.]]></description>
+            <content:encoded><![CDATA[
+Remember this article about [exadrums becoming an official Debian package](article/debian-bullseye)?
+It's now time to play (exa)drums on your Raspberry Pi.
+The Raspberry Pi Foundation released the latest Raspberry Pi OS *bullseye* a few days ago, and as you may have guessed, it includes exadrums packages:
+
+![image](/images/raspberry-pi-os-bullseye/screenshot.png)
+
+Now, you simply have to type `sudo apt install exadrums` into a terminal to install exadrums on your Raspberry Pi.
+
+<!--more-->
+
+It took some time to get to that point, but you get exadrums 0.6.0, which fairly recent, and works on my Roland TD-4KP drum set.
+If you'd like to try exadrums with your TD-4KP drum set, it's quite easy.
+First of all, you'll need to install *zip*, as it's not installed by default: `sudo apt install zip`.
+Then, you can go to the following page: https://github.com/SpintroniK/exadrums-data/tree/TD-4KP and follow the instructions.
+
+Obviously, the project is still under development and future versions will support more inputs, and have a lot of improvements.
+The official documentation is far from being complete, but I'll make sure to add guidelines to help install the latest version of exadrums on a Raspberry Pi. I will make sure the future versions work on the current version of Raspberry Pi OS *bullseye*. Stay tuned, new versions are coming!
 ]]></content:encoded>
         </item>
         <item>
