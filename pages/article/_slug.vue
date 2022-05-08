@@ -44,6 +44,11 @@
           </NuxtLink>
         </div>
       </div>
+      <div class="level-center">
+        <b-tooltip label="Top" position="is-bottom" type="is-dark">
+          <b-button class="level-item" icon-right="arrow-up" @click="scrollToTop" />
+        </b-tooltip>
+      </div>
       <div class="level-right">
         <div v-if="next !== null">
           <NuxtLink v-if="next !== null" :to="`/article/${next.slug}`">
@@ -95,6 +100,11 @@ export default {
 
     if (index !== -1) {
       this.prevPage = Math.floor(index / newsPerPage) + 1
+    }
+  },
+  methods: {
+    scrollToTop () {
+      window.scrollTo(0, 0)
     }
   }
 }
