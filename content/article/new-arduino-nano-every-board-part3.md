@@ -6,7 +6,7 @@ updatedAt: 2022-05-15 12:49:07
 
 This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 2](/article/new-arduino-nano-every-board-part2).
 
-In this part, we are going send MIDI notes over USB using the Arduino Nano Every.
+In this part, we are going to send MIDI notes over USB using the Arduino Nano Every.
 To understand everything correctly, make sure you read the previous parts.
 
 ♬ ♪ ♬ ♪
