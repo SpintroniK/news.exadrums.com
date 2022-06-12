@@ -114,4 +114,8 @@ export default {
   .small-caps {
     font-variant: small-caps;
   }
+  .number
+  {
+    all: unset;
+  }
 </style>

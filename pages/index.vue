@@ -4,7 +4,9 @@
       <article class="media">
         <div class="media-content">
           <p>
-            <strong class="title is-4">{{ article.title }}</strong>
+            <NuxtLink :to="`/article/${article.slug}`">
+              <strong class="title is-4">{{ article.title }}</strong>
+            </NuxtLink>
             <br>
             <b-tooltip :label="article.createdAt | fullDate" position="is-bottom" type="is-dark">
               <small class="has-text-primary">{{ article.createdAt | formatDate }}</small>
