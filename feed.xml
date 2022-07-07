@@ -4,9 +4,65 @@
         <title>exadrums - news</title>
         <link>https://news.exadrums.com/feed.xml</link>
         <description>eXaDrums project: latest news.</description>
-        <lastBuildDate>Wed, 15 Jun 2022 18:33:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Jul 2022 10:53:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Exadrums.com]]></title>
+            <link>https://news.exadrums.com/article/exadrums-dot-com</link>
+            <guid>https://news.exadrums.com/article/exadrums-dot-com</guid>
+            <pubDate>Wed, 01 Sep 2021 17:04:20 GMT</pubDate>
+            <description><![CDATA[The official exadrums website, exadrums.com, is online.
+It shows that there's more than a just software to exadrums.
+Even though it is more a landing page than a website, it gives valuable information about the project.
+And frankly, I'm quite proud of the video!
+
+    
+        
+            
+            
+             
+            Your browser does not support the video tag.
+        
+    
+]]></description>
+            <content:encoded><![CDATA[
+The official exadrums website, [exadrums.com](https://exadrums.com), is online.
+It shows that there's more than a just software to exadrums.
+Even though it is more a landing page than a website, it gives valuable information about the project.
+And frankly, I'm quite proud of the video!
+
+<div class="columns">
+    <div class="column has-text-centered is-centered">
+        <video controls="" playsinline loop style="max-width: 40%;" poster="/images/exadrums-dot-com/hero_img.jpg">
+            <source src="https://freewebmaster.fr/exadrums.com/assets/exadrums_hero_video.mp4" type="video/mp4">
+            <source src="https://freewebmaster.fr/exadrums.com/assets/exadrums_hero_video.webm" type="video/webm">
+            <source src="https://freewebmaster.fr/exadrums.com/assets/exadrums_hero_video.ogv" type="video/ogg"> 
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<!--more-->
+
+The website's goal is also to explain how to build an exadrums module.
+Building the whole module (which is currently designed to work with the Roland TD4-KP), requires three main steps:
+
+- To install the software on a Raspberry Pi
+- To make the trigger input board.
+- To 3D-print the enclosure.
+
+Just so you know, you don't have to go through each step, as you can already play a fair bit with the software even on your PC or laptop.
+
+There is also this _Make your Own_ button, which redirects to another web page that is currently under construction.
+This page will be a custom user guide generator.
+
+The idea is that everyone wants something different (or have a different drum set configuration), so it makes sense to have a custom user guide.
+I'll keep you informed about the progress I make on that page.
+It should be available in a few weeks, or a few months.
+I'm not in a rush, as my goal is to make the best user guide possible.
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[TD-4KP Configuration]]></title>
             <link>https://news.exadrums.com/article/TD-4KP-configuration</link>
@@ -68,62 +124,6 @@ Anyhow, when the new Raspberry Pi OS will be released, you'll be able to install
 ## Using Debian Bullseye on a Raspberry Pi
 
 If you don't want to wait until the version of Raspberry Pi OS comes out, you can install Debian Bullseye on your Raspberry Pi using one of the images available at: [ Tested images](https://raspi.debian.net/tested-images/). I haven't tried any of them, but they've been tested, so they should work.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Exadrums.com]]></title>
-            <link>https://news.exadrums.com/article/exadrums-dot-com</link>
-            <guid>https://news.exadrums.com/article/exadrums-dot-com</guid>
-            <pubDate>Wed, 01 Sep 2021 17:04:20 GMT</pubDate>
-            <description><![CDATA[The official exadrums website, exadrums.com, is online.
-It shows that there's more than a just software to exadrums.
-Even though it is more a landing page than a website, it gives valuable information about the project.
-And frankly, I'm quite proud of the video!
-
-    
-        
-            
-            
-             
-            Your browser does not support the video tag.
-        
-    
-]]></description>
-            <content:encoded><![CDATA[
-The official exadrums website, [exadrums.com](https://exadrums.com), is online.
-It shows that there's more than a just software to exadrums.
-Even though it is more a landing page than a website, it gives valuable information about the project.
-And frankly, I'm quite proud of the video!
-
-<div class="columns">
-    <div class="column has-text-centered is-centered">
-        <video controls="" playsinline loop style="max-width: 40%;" poster="/images/exadrums-dot-com/hero_img.jpg">
-            <source src="https://freewebmaster.fr/exadrums.com/assets/exadrums_hero_video.mp4" type="video/mp4">
-            <source src="https://freewebmaster.fr/exadrums.com/assets/exadrums_hero_video.webm" type="video/webm">
-            <source src="https://freewebmaster.fr/exadrums.com/assets/exadrums_hero_video.ogv" type="video/ogg"> 
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</div>
-
-<!--more-->
-
-The website's goal is also to explain how to build an exadrums module.
-Building the whole module (which is currently designed to work with the Roland TD4-KP), requires three main steps:
-
-- To install the software on a Raspberry Pi
-- To make the trigger input board.
-- To 3D-print the enclosure.
-
-Just so you know, you don't have to go through each step, as you can already play a fair bit with the software even on your PC or laptop.
-
-There is also this _Make your Own_ button, which redirects to another web page that is currently under construction.
-This page will be a custom user guide generator.
-
-The idea is that everyone wants something different (or have a different drum set configuration), so it makes sense to have a custom user guide.
-I'll keep you informed about the progress I make on that page.
-It should be available in a few weeks, or a few months.
-I'm not in a rush, as my goal is to make the best user guide possible.
-]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[How to Make a Modern Drum Module]]></title>
@@ -221,6 +221,134 @@ The plan is to develop an [electron](https://www.electronjs.org/) application, t
 I don't think it will replace it, but it'll be used by people who want a more connected experience.
 
 Imagine a user interface than leverages CSS transitions, animations, together with [vuejs](https://vuejs.org/), and javascript's fetch api. I think that can make the development easier, and faster. And hopefully drummers that use exadrums will highly benefit from that!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 1]]></title>
+            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part1</link>
+            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part1</guid>
+            <pubDate>Sun, 01 May 2022 12:41:05 GMT</pubDate>
+            <description><![CDATA[This project has been in the works for about a year.
+I often get questions about MIDI support, so I spent some time developing a new exadrums board that supports MIDI.
+Before we start, please note that this post will be split into several parts.
+The board is capable of handling 8 triggers.
+It can send MIDI notes over USB, or directly to a serial device such as a Raspberry Pi.
+There is no on-board Analog to Digital Converter (ADC). Instead, there are two 15-position Arduino Nano-compatible female headers.
+Any microcontroller that is pin-compatible with the Arduino Nano will fit.
+For the rest of this post, I'll assume that the microcontroller is an Arduino Nano Every.
+But before we dive into the details, check out that board!
+
+
+Board alone (left), and board with Arduino mounted on (right).
+I went for a blue PCB so that it would match the Arduino's color.]]></description>
+            <content:encoded><![CDATA[
+This project has been in the works for about a year.
+I often get questions about MIDI support, so I spent some time developing a new exadrums board that supports MIDI.
+Before we start, please note that this post will be split into several parts.
+
+The board is capable of handling 8 triggers.
+It can send MIDI notes over USB, or directly to a serial device such as a Raspberry Pi.
+There is no on-board Analog to Digital Converter (ADC). Instead, there are two 15-position Arduino Nano-compatible female headers.
+Any microcontroller that is pin-compatible with the Arduino Nano will fit.
+For the rest of this post, I'll assume that the microcontroller is an Arduino Nano Every.
+
+But before we dive into the details, check out that board!
+
+![image](/images/new-arduino-nano-every-board/board.png)
+![image](/images/new-arduino-nano-every-board/board-arduino.png)
+
+Board alone (left), and board with Arduino mounted on (right).
+I went for a blue PCB so that it would match the Arduino's color.
+
+
+<!--more-->
+
+## Board Specs
+
+So far, with an Arduino Nano Every, I've achieved the following:
+
+- Compatible with Roland TD-9, TD-11, TD-15, TD-17, TD-25, and TD-27-based edrum kits (DB25 connector).
+- Sample rate greater than 70ksps (kilo samples per second).
+- Nearly 9 samples per milliseconds and per channel (8.93 in average).
+- Configurable trigger parameters: threshold, scan time and mask time (1ms step).
+- Configurable MIDI channel and notes.
+
+Using 7 of the 8 inputs (the pads only), I managed to optimize the firmware quite a bit, as it fits into less than 2k bytes of flash and uses less than 128 bytes of RAM. Of course, this will increase a little when the hi-hat pedal code will be added.
+
+## This New Board is Called TB08-SE
+
+This new board's name is *eXaDrums TB08-SE*.
+Read *eXaDrums Trigger Board, 8 inputs, Special Edition*.
+I consider this board a special edition because this is the first exadrums board that is MIDI-compliant, and also because it is modular.
+As you can see on the photos above, the Arduino isn't soldered to the board, which means you can use another microcontroller if you want to (for instance an STM32 Nucleo board). As long as the pinout is compabitle, of course. Note that I don't recommend the Arduino Nano for this board, as its ADC is way too slow. The Arduino Nano Every, on the other hand, is a perfect fit!
+
+## How it Works
+
+### Analog Circuitry
+
+The analog part of the board is quite straightforward. It uses op-amps and passive components to scale down the piezo voltage to the 0-3.3V range.
+At rest, the output voltage is 1.65V (3.3V/2).
+Among the 8 inputs, 7 are intended to be used with single-zone pads, and one is to be used with a hi-hat controller.
+
+Here's how everything is wired:
+
+|  Instrument   | Cable Reference | Arduino Analog Input | ATMega4809 Analog Input |
+|---------------|-----------------|----------------------|-------------------------|
+| Kick          |  KIK            |  A0                  |  AIN3                   |
+| Snare         |  SNR            |  A1                  |  AIN2                   |
+| Hi-hat        |  HH             |  A2                  |  AIN1                   |
+| Hi-hat Control|  HHC            |  A3                  |  AIN0                   |
+| Crash         |  CR1            |  A4                  |  AIN12                  |
+| Tom1          |  T1             |  A5                  |  AIN13                  |
+| Tom3          |  T3             |  A6                  |  AIN4                   |
+| Ride          |  RD             |  A7                  |  AIN5                   |
+
+### Arduino Nano Every
+
+I chose the Arduino Nano Every because it's affordable, popular, small, and more importantly, because it has the right specs for the job!
+The on-board ATMega4809 has plenty of flash and RAM, so I knew these wouldn't cause any issues.
+The ADC is a crucial element for an edrum project, and the ATMega4809 has a 10-bit ADC that is capable of running at a 115ksps.
+For a 8-input board, that means about 14 samples per millisecond and per channel, which is quite good (it's recommended to get, at the very least, 5 samples per ms and per channel. But usually, [it's best to get around 10 samples/ms/channel](https://www.vdrums.com/forum/advanced/technical/1215866-edrumin-let-s-talk-about-it?p=1216107#post1216107)).
+
+However, the ATMega4809 isn't a powerful beast. First of all, the Arduino Nano Every runs at 16MHz by default.
+Although you can change the CPU clock to a slightly higher frequency of 20MHz, I decided not to do that in order to keep things simple (and challenging).
+You might think that 16MHz is quite a lot, after all it means that one clock cycle is as short as 62.5ns, but there's another catch.
+The ATMega4809 is an 8-bit microcontroller, which means that even adding two 32-bit integers requires several clock cycles.
+So, when you only have a few microseconds between each ADC reading, it's kind of foolish to consider floating point arithmetic...
+FIY, the Arduino Nano Every's score at the CoreMark CPU Benchmark is 8.20, where 32-bit microcontroller such as the Teensy 3.2 (72MHz) scores well above 100, and a Teensy 3.6 gets a core of 440, [which is more than 50 times the Arduino Nano Every score](https://github.com/PaulStoffregen/CoreMark).
+
+So with all those limitations in mind, I decided to go for 12 microseconds between each sample.
+That leaves around 200 instructions (per channel) for all the computations.
+Unfortunately, that was a bit ambitious, so I had to increase that time to 14µs, which leads to almost 9 samples per millisecond and per channel.
+But you already knew that if you read the post from the beginning.
+
+## The Devil is in the Details
+
+So what do we need to make this work?
+Here's a list I came up with when I was starting to think about this project.
+We need to:
+
+- Get at least 5 samples per milliseconds and per channel.
+- Provide an internal time reference.
+- Avoid floating point numbers and complex calculations.
+- Use hardware capabilities whenever possible.
+- Go as low level as possible to optimize computations.
+- Write high level code to improve readability.
+
+But how to go as high level as possible and optimize the code at the same time?
+To be honest, I didn't even think about that at first...
+I started to write all the code in C, so that I could get a working prototype.
+Then I introduced some high level C++ to improve the code readability.
+As I was doing that, I noticed the compiled program was getting smaller and smaller.
+So, without any massive effort, I managed to write high level readable code that was also quite optimized.
+At some point, the program was mainly written in C and was using 978 bytes of flash.
+Rewriting the same program in C++ decreased the program size to 918 bytes.
+I didn't try to find the reason why that is, but my conclusion was that gcc is awesome!
+
+## What's Next?
+
+It would take a long time to describe everything that's going on, so I'll stop here for now and cover more things in part 2.
+The next part will be about getting the code to compile and upload to the Arduino board, without the Arduino library.
 ]]></content:encoded>
         </item>
         <item>
@@ -725,134 +853,6 @@ In the next part, we will focus on MIDI and see how we can turn our Arduino Nano
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 1]]></title>
-            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part1</link>
-            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part1</guid>
-            <pubDate>Sun, 01 May 2022 12:41:05 GMT</pubDate>
-            <description><![CDATA[This project has been in the works for about a year.
-I often get questions about MIDI support, so I spent some time developing a new exadrums board that supports MIDI.
-Before we start, please note that this post will be split into several parts.
-The board is capable of handling 8 triggers.
-It can send MIDI notes over USB, or directly to a serial device such as a Raspberry Pi.
-There is no on-board Analog to Digital Converter (ADC). Instead, there are two 15-position Arduino Nano-compatible female headers.
-Any microcontroller that is pin-compatible with the Arduino Nano will fit.
-For the rest of this post, I'll assume that the microcontroller is an Arduino Nano Every.
-But before we dive into the details, check out that board!
-
-
-Board alone (left), and board with Arduino mounted on (right).
-I went for a blue PCB so that it would match the Arduino's color.]]></description>
-            <content:encoded><![CDATA[
-This project has been in the works for about a year.
-I often get questions about MIDI support, so I spent some time developing a new exadrums board that supports MIDI.
-Before we start, please note that this post will be split into several parts.
-
-The board is capable of handling 8 triggers.
-It can send MIDI notes over USB, or directly to a serial device such as a Raspberry Pi.
-There is no on-board Analog to Digital Converter (ADC). Instead, there are two 15-position Arduino Nano-compatible female headers.
-Any microcontroller that is pin-compatible with the Arduino Nano will fit.
-For the rest of this post, I'll assume that the microcontroller is an Arduino Nano Every.
-
-But before we dive into the details, check out that board!
-
-![image](/images/new-arduino-nano-every-board/board.png)
-![image](/images/new-arduino-nano-every-board/board-arduino.png)
-
-Board alone (left), and board with Arduino mounted on (right).
-I went for a blue PCB so that it would match the Arduino's color.
-
-
-<!--more-->
-
-## Board Specs
-
-So far, with an Arduino Nano Every, I've achieved the following:
-
-- Compatible with Roland TD-9, TD-11, TD-15, TD-17, TD-25, and TD-27-based edrum kits (DB25 connector).
-- Sample rate greater than 70ksps (kilo samples per second).
-- Nearly 9 samples per milliseconds and per channel (8.93 in average).
-- Configurable trigger parameters: threshold, scan time and mask time (1ms step).
-- Configurable MIDI channel and notes.
-
-Using 7 of the 8 inputs (the pads only), I managed to optimize the firmware quite a bit, as it fits into less than 2k bytes of flash and uses less than 128 bytes of RAM. Of course, this will increase a little when the hi-hat pedal code will be added.
-
-## This New Board is Called TB08-SE
-
-This new board's name is *eXaDrums TB08-SE*.
-Read *eXaDrums Trigger Board, 8 inputs, Special Edition*.
-I consider this board a special edition because this is the first exadrums board that is MIDI-compliant, and also because it is modular.
-As you can see on the photos above, the Arduino isn't soldered to the board, which means you can use another microcontroller if you want to (for instance an STM32 Nucleo board). As long as the pinout is compabitle, of course. Note that I don't recommend the Arduino Nano for this board, as its ADC is way too slow. The Arduino Nano Every, on the other hand, is a perfect fit!
-
-## How it Works
-
-### Analog Circuitry
-
-The analog part of the board is quite straightforward. It uses op-amps and passive components to scale down the piezo voltage to the 0-3.3V range.
-At rest, the output voltage is 1.65V (3.3V/2).
-Among the 8 inputs, 7 are intended to be used with single-zone pads, and one is to be used with a hi-hat controller.
-
-Here's how everything is wired:
-
-|  Instrument   | Cable Reference | Arduino Analog Input | ATMega4809 Analog Input |
-|---------------|-----------------|----------------------|-------------------------|
-| Kick          |  KIK            |  A0                  |  AIN3                   |
-| Snare         |  SNR            |  A1                  |  AIN2                   |
-| Hi-hat        |  HH             |  A2                  |  AIN1                   |
-| Hi-hat Control|  HHC            |  A3                  |  AIN0                   |
-| Crash         |  CR1            |  A4                  |  AIN12                  |
-| Tom1          |  T1             |  A5                  |  AIN13                  |
-| Tom3          |  T3             |  A6                  |  AIN4                   |
-| Ride          |  RD             |  A7                  |  AIN5                   |
-
-### Arduino Nano Every
-
-I chose the Arduino Nano Every because it's affordable, popular, small, and more importantly, because it has the right specs for the job!
-The on-board ATMega4809 has plenty of flash and RAM, so I knew these wouldn't cause any issues.
-The ADC is a crucial element for an edrum project, and the ATMega4809 has a 10-bit ADC that is capable of running at a 115ksps.
-For a 8-input board, that means about 14 samples per millisecond and per channel, which is quite good (it's recommended to get, at the very least, 5 samples per ms and per channel. But usually, [it's best to get around 10 samples/ms/channel](https://www.vdrums.com/forum/advanced/technical/1215866-edrumin-let-s-talk-about-it?p=1216107#post1216107)).
-
-However, the ATMega4809 isn't a powerful beast. First of all, the Arduino Nano Every runs at 16MHz by default.
-Although you can change the CPU clock to a slightly higher frequency of 20MHz, I decided not to do that in order to keep things simple (and challenging).
-You might think that 16MHz is quite a lot, after all it means that one clock cycle is as short as 62.5ns, but there's another catch.
-The ATMega4809 is an 8-bit microcontroller, which means that even adding two 32-bit integers requires several clock cycles.
-So, when you only have a few microseconds between each ADC reading, it's kind of foolish to consider floating point arithmetic...
-FIY, the Arduino Nano Every's score at the CoreMark CPU Benchmark is 8.20, where 32-bit microcontroller such as the Teensy 3.2 (72MHz) scores well above 100, and a Teensy 3.6 gets a core of 440, [which is more than 50 times the Arduino Nano Every score](https://github.com/PaulStoffregen/CoreMark).
-
-So with all those limitations in mind, I decided to go for 12 microseconds between each sample.
-That leaves around 200 instructions (per channel) for all the computations.
-Unfortunately, that was a bit ambitious, so I had to increase that time to 14µs, which leads to almost 9 samples per millisecond and per channel.
-But you already knew that if you read the post from the beginning.
-
-## The Devil is in the Details
-
-So what do we need to make this work?
-Here's a list I came up with when I was starting to think about this project.
-We need to:
-
-- Get at least 5 samples per milliseconds and per channel.
-- Provide an internal time reference.
-- Avoid floating point numbers and complex calculations.
-- Use hardware capabilities whenever possible.
-- Go as low level as possible to optimize computations.
-- Write high level code to improve readability.
-
-But how to go as high level as possible and optimize the code at the same time?
-To be honest, I didn't even think about that at first...
-I started to write all the code in C, so that I could get a working prototype.
-Then I introduced some high level C++ to improve the code readability.
-As I was doing that, I noticed the compiled program was getting smaller and smaller.
-So, without any massive effort, I managed to write high level readable code that was also quite optimized.
-At some point, the program was mainly written in C and was using 978 bytes of flash.
-Rewriting the same program in C++ decreased the program size to 918 bytes.
-I didn't try to find the reason why that is, but my conclusion was that gcc is awesome!
-
-## What's Next?
-
-It would take a long time to describe everything that's going on, so I'll stop here for now and cover more things in part 2.
-The next part will be about getting the code to compile and upload to the Arduino board, without the Arduino library.
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[New Arduino Nano Every Trigger Board - Part 3]]></title>
             <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part3</link>
             <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part3</guid>
@@ -903,17 +903,17 @@ But, in MIDI, drums use channel 10, so how do we send a note over channel 10?
 
 To answer that question, we are going to use hexadecimal values instead of decimal.
 The *Note On* command for channel 0 is 144, which becomes `0x90` in hexadecimal.
-Channel number 10, becomes channel number `0x0A`, so a *Note On* command over channel 10 is `0x9A`.
-By the way `0x9A` is 154 in decimal, so that's just `144 + 10`, which is the *Note On* command *plus* the channel number.
+Channel number 10, becomes channel number `0x09` (because they are numbered from 0!), so a *Note On* command over channel 10 is `0x99`.
+By the way `0x99` is 153 in decimal, so that's just `144 + 9`, which is the *Note On* command *plus* the channel number (with the first channel being numbered as 0).
 
 ### Drum Notes
 
 Now, we know how to send a *Note On* command. It is quite simple, as only one byte needs to be sent.
-This byte value is `0x9A` in hexadecimal if we use channel 10.
+This byte value is `0x99` in hexadecimal if we use channel 10.
 
 If a MIDI instrument were to received that command, it would need to know which note to play.
 This is why the *Note On* command must be followed by the note number.
-Lets say we want a snare drum sound, we need to send `0x9A` followed by 38, or `0x26`.
+Lets say we want a snare drum sound, we need to send `0x99` followed by 38, or `0x26`.
 
 And that's it. If an instrument receives those two bytes one after another it will know that it should play a snare drum note.
 But it won't, because there's still one thing that's missing here: the velocity.
@@ -924,7 +924,7 @@ It would be no fun at all if all the notes had the same velocity.
 That's why a third byte follows the MIDI command and MIDI note number, and that third byte represents the velocity.
 The velocity goes from 0 to 127 (yes it uses only 7 bits).
 
-Finally, to send a snare drum note with a velocity of 92, we have to send 3 bytes: `154, 38, 92` or, in hexadecimal: `0x9A, 0x26, 0x5C`.
+Finally, to send a snare drum note with a velocity of 92, we have to send 3 bytes: `154, 38, 92` or, in hexadecimal: `0x99, 0x26, 0x5C`.
 
 ### Baud Rate & Latency
 
@@ -1237,17 +1237,17 @@ int main()
 
         if(snareNotes[i] == 1)
         {
-            midi.NoteOn<10>(snareNote, 80);
+            midi.NoteOn<9>(snareNote, 80);
         }
 
         if(hihatNotes[i] == 1)
         {
-            midi.NoteOn<10>(hhNote, 80);
+            midi.NoteOn<9>(hhNote, 80);
         }
 
         if(bassDrumNotes[i] == 1)
         {
-            midi.NoteOn<10>(bdNote, 80);
+            midi.NoteOn<9>(bdNote, 80);
         }
 
         i = ++i % nbNotes;
@@ -1286,6 +1286,577 @@ We are going to take a break for now.
 I don't when the next part will be posted, but I know it'll be about the Analog to Digital Converter (ADC).
 We'll probably get back to MIDI-related topics another time.
 See you next time!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 5]]></title>
+            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</link>
+            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</guid>
+            <pubDate>Wed, 15 Jun 2022 18:25:57 GMT</pubDate>
+            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 4.
+As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
+
+I've been able to test it with my Roland TD17 and it works very well.
+In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
+Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
+For my tests, I used hydrogen as a VST. It may not be the best, but it felt like playing with high quality material.]]></description>
+            <content:encoded><![CDATA[
+This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 4](/article/new-arduino-nano-every-board-part4).
+
+As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
+
+![image](/images/new-arduino-nano-every-board/board.png)
+
+I've been able to test it with my Roland TD17 and it works very well.
+In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
+Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
+For my tests, I used [hydrogen](https://hydrogen-music.org/) as a VST. It may not be the best, but it felt like playing with high quality material.
+
+<!--more-->
+
+## Context and Description
+
+This project is part of the eXaDrums project.
+It features a new board that allows to connect 8 drum pads to an Arduino Nano Every that, in turns, sends MIDI notes over USB.
+The board hardware and software are both compatible with eXaDrums, but it can also be used as a standalone device.
+
+The project name is eXadrumino Nano Every. It is a high performance firmware that allows to read eight analog inputs very fast and send MIDI notes over USB, or via the on-board USART. Using eXaDrums or a PC loaded with a VST, it allows to play drums with a very low latency.
+The board itself is called *eXaDrums TB08-SE*, and it is compatible with other microcontrollers than the Arduino Nano Every.
+
+Here's a brief reminder of the specs I gave in the first part of this series of articles:
+
+- Works on PC and Raspberry Pi.
+- Up to 7 single-zone pads + 1 hi-hat controller.
+- Compatible with Roland TD-9, TD-11, TD-15, TD-17, TD-25, and TD-27-based edrum kits (DB25 connector).
+- Sample rate greater than 70ksps (kilo samples per second).
+- Nearly 9000 samples per second and per channel (8928 in average).
+- Configurable trigger parameters: threshold, scan time and mask time (1ms step).
+- Configurable MIDI channel and notes.
+
+The last two are still under development.
+
+## How to Get the Board?
+
+I designed a board and got 5 prototypes PCBs.
+However, that board requires some refinements. I would like to make some changes before I share the whole PCB so that it is as good as it can be.
+Meanwhile, you can easily replicate the schematics, as it is a quite simple circuit.
+Every piezo is wired to a single operational amplifier that acts as a simple amplifier that adds a bias voltage to the signal.
+Here's how it looks:
+
+![Circuit](/images/new-arduino-nano-every-board/Piezo-circuit.png)
+
+The `Vcc` voltage is taken from the Arduino's 5V `power out` (pin number 12).
+At the `Vbias` pin, the voltage is 1.65V.
+It is obtained by using a voltage divider made of two 10k resistors that are wired to the 3.3V `power out` pin of the Arduino (pin number 2).
+
+The hi-hat controller input is a little different, and simpler.
+It consists of a single 4.7k resistor wired to the 3.3V pin of the Arduino on one side, and the hi-hat controller as well as the `+` input of voltage follower. It is the same divider for all operational amplifiers.
+
+And that's it, you know everything. There are 4 dual operational amplifiers on the board, which makes a total of 8 inputs.
+I got my prototypes from JLCPCB, using their SMT sevice, which means that I received assembled boards, that is, all the components were already soldered, except for the Raspberry Pi GPIO header socket.
+If you'd like to get you own board, I do recommend JLCPCB, the PCBs are good quality and affordable, the only downside is the shipping cost.
+Or, if you're patient, you can wait until I'm done with improving the board's layout, it shouldn't take too long.
+Again, I just want to make the best board possible, which will require a few changes.
+
+## Where is the Code?
+
+The code is freely available at [GitHub](https://github.com/SpintroniK/exadrumino-Nano-Every).
+You'll find more details as well as instructions that will help you flash the code to your Arduino.
+Note that the code is still a work in progress, some features are not their yet.
+The most important missing features are those that allow to change trigger and MIDI parameters via the USART, and save those parameters to the on-board EEPROM.
+
+## Previous and Next Parts
+
+So far there has been 4 parts published in this series of articles. This is the fifth one.
+Here's a reminder of the previous parts and what they talk about:
+
+- [Part 1](/article/new-arduino-nano-every-board-part1): New board specs, and how it works.
+- [Part 2](/article/new-arduino-nano-every-board-part2): Makefile and the way C++ has been used to write the firmware.
+- [Part 3](/article/new-arduino-nano-every-board-part3): Sending serial MIDI notes over USB.
+- [Part 4](/article/new-arduino-nano-every-board-part4): How to use the ADC to make an oscilloscope and read triggers voltages.
+
+There will be at least two more parts which will deal with the following topics:
+
+- Part 6: How to get an efficient real-time counter.
+- Part 7: How to filter the piezo output signal very fast to make a drum trigger.
+- Part 8: How to read and write values to the on-board EEPROM.
+- Maybe more...
+
+See you next time!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 6]]></title>
+            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part6</link>
+            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part6</guid>
+            <pubDate>Tue, 05 Jul 2022 16:11:31 GMT</pubDate>
+            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 5.
+In this part, we are going to talk about real-time counters.
+In particular, we'll see advantages of using a relative time reference.
+And we'll also see how the following figure helps us measure a time difference efficiently using a single byte as our time reference!
+]]></description>
+            <content:encoded><![CDATA[
+This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 5](/article/new-arduino-nano-every-board-part5).
+
+In this part, we are going to talk about real-time counters.
+In particular, we'll see advantages of using a relative time reference.
+
+And we'll also see how the following figure helps us measure a time difference efficiently using a single byte as our time reference!
+
+![delta](/images/new-arduino-nano-every-board/delta.png)
+
+<!--more-->
+
+## Absolute and Relative Time Reference
+
+The first important thing that we need to know is that we can't have an absolute time reference.
+Because our time reference needs to store the time in a variable, it will overflow at some point.
+That means, an absolute time reference remains absolute as long as the counter variable doesn't overflow.
+
+This is a major drawback, especially for limited hardware, where incrementing a 32-bit variable can be very expensive.
+An 8-bit microcontroller such as the ATMega4809 isn't able to increment a 32-bit variable in a single instruction.
+So, to avoid overflows, we need to either decrease the resolution of our counter, or store its value into a bigger variable.
+But, this won't prevent the counter from overflowing at some point anyway... So what can we do about that?
+
+Here's an example to illustrate our problem.
+Say we want to increment a counter every microsecond.
+We are playing drums an hour or two every day, and we'd like our time reference to be absolute.
+
+Let's say we want to store our counter value in a 32-bit integer.
+That leaves us with 4295 seconds before the counter overflows, which is slightly more than an hour.
+We have three solutions:
+
+- Use a 64-bit variable, which will cause an overflow after a few billion years.
+- Increase the resolution of our timer to, say 1 ms, so that we get nearly 50 days before the variable overflows.
+- Work with a relative time reference instead of an absolute one.
+
+All three options work, but we are interested in the latter, as this will allow us to store our count in a 16-bit, possibly a 8-bit variable.
+
+A relative time reference is a single variable that is incremented at regular interval.
+The only difference with an absolute time reference is that we know it will overflow at some point, and that's not a problem.
+
+## Relative Time Reference
+
+### How it Works
+
+Contrary to the absolute time reference, the relative time reference needs to be compared to another variable.
+For instance, if a drum pad is hit, we get the value of our relative time reference (counter) and memorize it.
+After some time, we are going to check how much time has elapsed since we've memorized the time reference value.
+
+### Practical Example
+
+First of all, we need to state the requirements for our time reference.
+We'd like to make a drum module, so the time reference will be used to manage the triggers states.
+That includes the trig time, scan time, and mask time.
+For those values, it would be nice to have a resolution of 0.1 or 0.5 ms, something like that.
+However, I will choose a step of 1 ms.
+The main reason for that, is that 0.1 ms is too small and 0.5 ms could lead to confusion...
+
+Let's say we use a 8-bit variable for our counter.
+It is incremented every millisecond, so it can count from zero to 255 ms.
+And it does so continuously until it overflows and goes back to zero.
+
+Now if a drum pad is hit, the trigger registers the current value of the counter.
+Imagine that the value of the counter is 42. It is stored in a `trigTime` variable.
+We set the scan time to 4 ms, which means the scan time will be done when the counter reaches 46.
+The only thing we need to know is: is the counter greater or equal to 46.
+
+A problem arises if the counter overflows, though.
+Let's say the pad has been hit when the counter's value was 254.
+We'll know that the scan time is over when the counter's value will be greater or equal to 258.
+But our 8-bit variable will overflow before that, so we'll get the following sequence: 254, 255, 0, 1, 2, instead of 254, 255, 256, 257, 258.
+
+Fortunately, we can do something about that.
+Instead of using unsigned integers, we can use signed integers, but we're going to go over a few other details before we do so.
+We still use a 8-bit unsigned integer to store our counter's value, so it can go from 0 to 255.
+We do the same for our scan time variable.
+In order to determine if we have waited for a longer time than the scan time here's what we need to compute: `const uint8_t delta = trigTime + scanTime - currentTime;`.
+
+So far, we still use an unsigned integer, but, let's examine precisely what happens with the previous values.
+We have `trigTime = 254` and `scanTime = 4`.
+Here's what happens if we subtract the `currentTime` variable to the previous value:
+
+1. If `currentTime = 255` we get `delta =  254 + 4 - 255 = 3`.
+2. If `currentTime` overflows, for instance, `currentTime = 1`, we get `delta =  254 + 4 - 1 = 1`.
+3. If `currentTime` overflows, and we've waited longer than the scan time, for instance, `currentTime = 4`, we get `delta = 254 + 4 - 4 = 254`.
+
+### A Little Bit of Theory
+
+Now let's see what happens for a different value of `trigTime`: `trigTime = 120`, and consider a longer scanTime: `scanTime = 100`.
+
+1. If `currentTime = 128` we get `delta =  120 + 100 - 128 = 92`.
+2. If `currentTime` doesn't overflow, for instance, `currentTime = 200`, we get `delta =  120 + 100 - 200 = 20`.
+3. If `currentTime` doesn't overflow, and we've waited longer than the scan time, for instance, `currentTime = 240`, we get `delta = 120 + 100 - 240 = 236`.
+
+We see something interesting here, for cases 1 and 2, delta remains below 127, but in both cases, point number 3 gives us a value that is above 128.
+This is understandable, because if `currentTime >= trigTime + scanTime`, `deltat = rigTime + scanTime - currentTime` goes below zero.
+But with unsigned integers, that means `delta` is now 255 minus something, so we get 254 or 236 in the second third case.
+Notice how the result is the same whether the value overflows or not!
+
+What that means is that perhaps we should treat `delta` as a signed integer.
+It's important to note that, even if we treat `delta` as a signed integer, the underlying binary value of `delta` remains the same.
+
+A signed 8-bit integer goes from -128 to 127. The most significant bit, or MSB, determines the sign.
+If that bit is set to 1, the value is negative, otherwise, it is positive.
+So, if we count from zero, the value goes like this: 0, 1, 2, 3, ..., 126, 127, -128, -127, -126, ..., -3, -2, -1.
+Which is to be compared to a unsigned integer that goes like: 0, 1, 2, 3, ..., 126, 127, 128, 129, 130, ..., 253, 254, 255.
+Both sequences are different representations of the same binary value.
+
+This means that `delta` is negative if the elapsed time since the trig time is longer than the scan time.
+Back to our first example, but this time using the signed representation of delta:
+
+1. If `currentTime = 255` we get `delta =  254 + 4 - 255 = 3`.
+2. If `currentTime` overflows, for instance, `currentTime = 2`, we get `delta =  254 + 4 - 2 = 0`.
+3. If `currentTime` overflows, and we've waited longer than the scan time, for instance, `currentTime = 4`, we get `delta = 254 + 4 - 4 = -2`.
+
+We have the following three cases:
+
+- If we have waited less than the scan time duration, the value is positive.
+- If we have waited exactly the duration of the scan time, the value is zero.
+- If we have waited more than the scan time duration, the value is negative.
+
+Let's visualize what's happening here.
+
+![delta](/images/new-arduino-nano-every-board/delta.png)
+
+The value of `delta` reaches 0 when the elapsed time since the trig time is exactly the scan time.
+For an unsigned integer, the next value is 255, and if we cast `delta` to a signed integer, it is -1.
+There are a few options to detect the transition:
+
+- We could simply test if the unsigned representation of `delta` is greater or equal to 128.
+- We could test the MSB of the unsigned representation of `delta`.
+- Or we could cast `delta` to a signed integer an check if the value is negative.
+
+I like the latter the most because it gives us a useful information for free: the elapsed time since the end of the scan time.
+That time is equal to `-delta`.
+However, there's one thing that I didn't mention: we loose half of the values of our 8-bit integer.
+All three options above lead to the same result, we can now only measure time differences that go from 0 to 128ms.
+
+If you'd like a to read a slightly different explanation of this idea, please read the [following article from Lucky Resistor](https://luckyresistor.me/2019/07/10/real-time-counter-and-integer-overflow/).
+
+## Using TCB0 as a Real Time Counter
+
+We are already using the TCA counter to trigger the ADC conversions, so we are going to use the TCB0 timer/counter instead.
+
+### Configure TCB0 and Handle Interrupts
+
+The TCB timer/counter can do a lot of things, but we're only going to use it as a counter here.
+First of all, we define a class to handle the counters interrupts:
+
+```cpp
+class TCBInterrupts
+{
+
+public:
+    TCBInterrupts() = delete;
+    ~TCBInterrupts() = delete;
+
+private:
+
+    static void TCB0Overflow() __asm__("__vector_12") __attribute__((__signal__, __used__, __externally_visible__));
+    static void TCB1Overflow() __asm__("__vector_13") __attribute__((__signal__, __used__, __externally_visible__));
+
+};
+```
+
+And yes, "counters" with an "s", as there are 4 TCB timers.
+Note that I implemented the interrupts for TCB0 and TCB1 only.
+
+Now let's add a little helper to choose the right clock for TCB0:
+
+```cpp
+enum class TCBClock
+{
+    Div1,
+    Div2,
+    TCA
+};
+```
+
+We'll use the same clock as TCA.
+And now a class to configure the TCB counters:
+
+```cpp
+template <uint8_t nb>
+class TCB
+{
+
+public:
+    TCB() = delete;
+    ~TCB() = delete;
+
+    static constexpr void EnableInterrupts()
+    {
+        tcb().INTCTRL =  TCB_CAPT_bm;
+    }
+
+    static constexpr void ResetInterrupt()
+    {
+        tcb().INTFLAGS |= TCB_CAPT_bm;
+    }
+
+    static constexpr void SetCompareOrCapture(uint16_t value)
+    {
+        tcb().CCMP = value;
+    }
+
+    static constexpr void Enable()
+    {
+        tcb().CTRLA |= TCB_ENABLE_bm;
+    }
+
+    template <TCBClock clock>
+    static constexpr void SetClock()
+    {
+        switch(clock)
+        {
+            case TCBClock::Div1: tcb().CTRLA |= TCB_CLKSEL_CLKDIV1_gc; break;
+            case TCBClock::Div2: tcb().CTRLA |= TCB_CLKSEL_CLKDIV2_gc; break;
+            case TCBClock::TCA: tcb().CTRLA |= TCB_CLKSEL_CLKTCA_gc; break;
+        }
+    }
+
+private:
+
+    static constexpr auto& tcb()
+    {
+        switch(nb)
+        {
+            case 0: return TCB0;
+            case 1: return TCB1;
+            case 2: return TCB2;
+            case 3: return TCB3;
+            default: static_assert(nb <= 3, "Wrong TCB number.");
+        }
+    }
+
+};
+
+```
+
+The functions names are self-explanatory.
+
+### A Real-Time Counter
+
+Before we continue, we need one more ingredient: a counter.
+To that end, I'll make a class template that will allow to choose the type of variable that the counter uses.
+
+```cpp
+template <typename T>
+class Counter
+{     
+
+public:
+
+    Counter() = default;
+    ~Counter() = default;
+
+    constexpr T GetCount()
+    {
+        return count;
+    }
+
+    constexpr void Increment()
+    {
+        ++count;
+    }
+
+private:
+
+    T count{};
+};
+```
+
+And that's it, now we can add all these niceties to our main function.
+
+```cpp
+
+#include "Adc.hpp"
+#include "Counter.hpp"
+#include "TCB.hpp"
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+using Adc0 = Adc<Adc0Addr, Adc8bitType>;
+using Tcb = TCB<0>;
+
+Counter<uint8_t> clock{};
+
+void Analog::AdcInterrupts::ResReady()
+{
+    Adc0::ResetInterrupt();
+    trigger.Process(ADC0.RES, clock.GetCount());
+}
+
+void Timing::TCBInterrupts::TCB0Overflow()
+{
+    Tcb::ResetInterrupt();
+    clock.Increment();
+}
+
+int main()
+{
+
+    while(1)
+    {
+        ;
+    }
+
+    return 0;
+}
+
+```
+
+We use the relative time reference in the ADC interrupt, so that we know how much time has elapsed since we've received the previous samples.
+In this interrupt there's a `trigger.Process()` function.
+It is the function that will process the ADC data, together with the time reference, to compute the trigger state.
+Here's an example that shows how this function can use the relative time reference:
+
+```cpp
+void Trigger::Process(uint8_t data, uint8_t time) const
+{
+    // [...]
+
+    const uint8_t delta = this->trigTime + this->scanTime - time;
+
+    if(static_cast<int8_t>(delta) <= 0)
+    {
+        // ...
+    }
+
+    // [...]
+}
+```
+
+At some point in time, the ADC value exceeds a certain threshold, which in turn, puts the trigger in scan state.
+The trigger remains in that state for `scanTime` milliseconds.
+During that time, the peak value of the signal is computed.
+
+The question we answer here is: how do we know when the scan time is over?
+And the answer is simple: we check whether the signed representation of `delta` is positive or negative.
+As soon as it becomes a negative value, we know that the scan time is over and we're done computing the signal's peak value.
+Thus, we can go on and put the trigger in its next state, etc.
+
+There we are, with a single byte we get a relative time reference that we can use to measure delays from 1 to 128 ms.
+We don't need it to be an absolute time reference as long as we use a variable to memorize the start of the delay (`trigTime`).
+Using this method, we can measure as many delays as we want as long they remain under 128 ms, and that we use a byte for each delay to memorize the when it starts.
+Of course this also works if we use a 16-bit variable (or even bigger), it is just faster to use a 8-bit variable on a 8-bit CPU.
+
+## What's Next?
+
+Next time we'll talk about signal processing.
+In particular, we will see how to make a high-pass filter that performs well with a 8-bit microcontroller.
+
+See you next time!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New SPI Sensors Configurator ⇒ More Trigger Inputs]]></title>
+            <link>https://news.exadrums.com/article/new-spi-sensors-config</link>
+            <guid>https://news.exadrums.com/article/new-spi-sensors-config</guid>
+            <pubDate>Sat, 11 Dec 2021 13:31:28 GMT</pubDate>
+            <description><![CDATA[Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
+This features aims to provide a way to add as many SPI devices as you want.
+Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
+This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
+]]></description>
+            <content:encoded><![CDATA[
+Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
+This features aims to provide a way to add as many SPI devices as you want.
+Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
+
+This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
+
+![image](/images/new-spi-sensors-config/spidev-config.png)
+
+<!--more-->
+
+## How SPI Devices Work
+
+An SPI analog to digital converter takes in analog data, digitizes it, and sends it to a Raspberry Pi using the SPI bus.
+SPI communication offers many advantages, and one of them is that it's quite easy to communicate with several devices.
+The first eXaDrums input board uses a single MCP3008 chip, which limits the number of inputs to 8.
+Adding another MCP3008 would increase that number to 16, and if you want even more inputs, you could add a third one.
+
+The Raspberry Pi offers at least one SPI interface that has two `Chip Select` inputs (also called *Chip Enable*).
+So, with a single SPI bus, `SPI0`, the Raspberry Pi can communicate with two devices, by changing the states of the chip selects pins `CE0` and `CE1`.
+
+But that's not it. Recent Raspberry Pis have another SPI *bus*: `SPI1`. And it can handle up to three devices via its three chip select inputs `CE0`, `CE1`, and `CE2`.
+So, in theory it's possible to have up to 5 SPI Analog to Digital converters. Imagine 5 MCP3008, that would mean up to 40 inputs!
+Note that the Raspberry Pi 4 has even more SPI buses, so that should be more than enough, even for a big drum kit with a lot of triggers.
+
+It's important to note that SPI devices are grouped by bus and chip select, and this is exactly how the SPI configuration works in exadrums.
+
+## How to Configure SPI Devices
+
+Only supported devices are allowed in the SPI configuration dialog. They are currently limited to MCP3008, MCP3204, and MCP3208.
+Each device must be associated to a bus and a chip select.
+And that's basically it.
+
+Here is an example.
+You make a trigger input board that needs to handle up to 16 analog inputs.
+The MCP3008 is a good choice, so you decide to use two of them.
+You can either have one of them use the `SPI0`, and the other the `SPI1`, or you can have them both use `SPI1` and choose to use two different chip selects, i.e. `CE0` and `CE1`.
+So your configuration is:
+|  Name   | Bus | CS |
+|---------|-----|----|
+| MCP3008 |  0  |  0 |
+| MCP3008 |  0  |  1 |
+
+And this is exactly how you can configure your SPI devices in exadrums (see screenshot above).
+By doing that, you'll be able to create up to 16 triggers, numbered 0 to 15, and everything will work out of the box.
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Raspberry Pi OS - Bullseye]]></title>
+            <link>https://news.exadrums.com/article/raspberry-pi-os-bullseye</link>
+            <guid>https://news.exadrums.com/article/raspberry-pi-os-bullseye</guid>
+            <pubDate>Fri, 12 Nov 2021 18:07:46 GMT</pubDate>
+            <description><![CDATA[Remember this article about exadrums becoming an official Debian package?
+It's now time to play (exa)drums on your Raspberry Pi.
+The Raspberry Pi Foundation released the latest Raspberry Pi OS bullseye a few days ago, and as you may have guessed, it includes exadrums packages:
+
+Now, you simply have to type sudo apt install exadrums into a terminal to install exadrums on your Raspberry Pi.]]></description>
+            <content:encoded><![CDATA[
+Remember this article about [exadrums becoming an official Debian package](article/debian-bullseye)?
+It's now time to play (exa)drums on your Raspberry Pi.
+The Raspberry Pi Foundation released the latest Raspberry Pi OS *bullseye* a few days ago, and as you may have guessed, it includes exadrums packages:
+
+![image](/images/raspberry-pi-os-bullseye/screenshot.png)
+
+Now, you simply have to type `sudo apt install exadrums` into a terminal to install exadrums on your Raspberry Pi.
+
+<!--more-->
+
+It took some time to get to that point, but you get exadrums 0.6.0, which fairly recent, and works on my Roland TD-4KP drum set.
+If you'd like to try exadrums with your TD-4KP drum set, it's quite easy.
+First of all, you'll need to install *zip*, as it's not installed by default: `sudo apt install zip`.
+Then, you can go to the following page: https://github.com/SpintroniK/exadrums-data/tree/TD-4KP and follow the instructions.
+
+Obviously, the project is still under development and future versions will support more inputs, and have a lot of improvements.
+The official documentation is far from being complete, but I'll make sure to add guidelines to help install the latest version of exadrums on a Raspberry Pi. I will make sure the future versions work on the current version of Raspberry Pi OS *bullseye*. Stay tuned, new versions are coming!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Future of exadrums]]></title>
+            <link>https://news.exadrums.com/article/the-future-of-exadrums</link>
+            <guid>https://news.exadrums.com/article/the-future-of-exadrums</guid>
+            <pubDate>Wed, 25 Aug 2021 14:48:20 GMT</pubDate>
+            <description><![CDATA[The future of exadrums is probably different than what you may think.
+So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.]]></description>
+            <content:encoded><![CDATA[
+The future of exadrums is probably different than what you may think.
+
+So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.
+
+<!--more-->
+
+A C++ user interface has its advantages, but exadrums could benefit from other languages. For instance,  a more "connected" experience would be easier to implement in Python or Javascript.
+
+And that's how I see the future of exadrums: a Connected Open Source Drum Module. Some things are already in the works, but others will take some time. However, I'll do my best to publish news more frequently, to keep you informed about the project.
+
+About that, the project website [exadrums.com](https://exadrums.com) will be online pretty soon! Hope you'll like it.
 ]]></content:encoded>
         </item>
         <item>
@@ -1861,213 +2432,8 @@ So getting one sample every 14 µs means we can aim for 8928 samples per second 
 
 ## What's Next?
 
-New time I'll share the code, as it is now usable and I've tested it with my Roland TD17 e-drum.
+Next time I'll share the code, as it is now usable and I've tested it with my Roland TD17 e-drum.
 Stay tuned!
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New SPI Sensors Configurator ⇒ More Trigger Inputs]]></title>
-            <link>https://news.exadrums.com/article/new-spi-sensors-config</link>
-            <guid>https://news.exadrums.com/article/new-spi-sensors-config</guid>
-            <pubDate>Sat, 11 Dec 2021 13:31:28 GMT</pubDate>
-            <description><![CDATA[Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
-This features aims to provide a way to add as many SPI devices as you want.
-Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
-This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
-]]></description>
-            <content:encoded><![CDATA[
-Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
-This features aims to provide a way to add as many SPI devices as you want.
-Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
-
-This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
-
-![image](/images/new-spi-sensors-config/spidev-config.png)
-
-<!--more-->
-
-## How SPI Devices Work
-
-An SPI analog to digital converter takes in analog data, digitizes it, and sends it to a Raspberry Pi using the SPI bus.
-SPI communication offers many advantages, and one of them is that it's quite easy to communicate with several devices.
-The first eXaDrums input board uses a single MCP3008 chip, which limits the number of inputs to 8.
-Adding another MCP3008 would increase that number to 16, and if you want even more inputs, you could add a third one.
-
-The Raspberry Pi offers at least one SPI interface that has two `Chip Select` inputs (also called *Chip Enable*).
-So, with a single SPI bus, `SPI0`, the Raspberry Pi can communicate with two devices, by changing the states of the chip selects pins `CE0` and `CE1`.
-
-But that's not it. Recent Raspberry Pis have another SPI *bus*: `SPI1`. And it can handle up to three devices via its three chip select inputs `CE0`, `CE1`, and `CE2`.
-So, in theory it's possible to have up to 5 SPI Analog to Digital converters. Imagine 5 MCP3008, that would mean up to 40 inputs!
-Note that the Raspberry Pi 4 has even more SPI buses, so that should be more than enough, even for a big drum kit with a lot of triggers.
-
-It's important to note that SPI devices are grouped by bus and chip select, and this is exactly how the SPI configuration works in exadrums.
-
-## How to Configure SPI Devices
-
-Only supported devices are allowed in the SPI configuration dialog. They are currently limited to MCP3008, MCP3204, and MCP3208.
-Each device must be associated to a bus and a chip select.
-And that's basically it.
-
-Here is an example.
-You make a trigger input board that needs to handle up to 16 analog inputs.
-The MCP3008 is a good choice, so you decide to use two of them.
-You can either have one of them use the `SPI0`, and the other the `SPI1`, or you can have them both use `SPI1` and choose to use two different chip selects, i.e. `CE0` and `CE1`.
-So your configuration is:
-|  Name   | Bus | CS |
-|---------|-----|----|
-| MCP3008 |  0  |  0 |
-| MCP3008 |  0  |  1 |
-
-And this is exactly how you can configure your SPI devices in exadrums (see screenshot above).
-By doing that, you'll be able to create up to 16 triggers, numbered 0 to 15, and everything will work out of the box.
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Raspberry Pi OS - Bullseye]]></title>
-            <link>https://news.exadrums.com/article/raspberry-pi-os-bullseye</link>
-            <guid>https://news.exadrums.com/article/raspberry-pi-os-bullseye</guid>
-            <pubDate>Fri, 12 Nov 2021 18:07:46 GMT</pubDate>
-            <description><![CDATA[Remember this article about exadrums becoming an official Debian package?
-It's now time to play (exa)drums on your Raspberry Pi.
-The Raspberry Pi Foundation released the latest Raspberry Pi OS bullseye a few days ago, and as you may have guessed, it includes exadrums packages:
-
-Now, you simply have to type sudo apt install exadrums into a terminal to install exadrums on your Raspberry Pi.]]></description>
-            <content:encoded><![CDATA[
-Remember this article about [exadrums becoming an official Debian package](article/debian-bullseye)?
-It's now time to play (exa)drums on your Raspberry Pi.
-The Raspberry Pi Foundation released the latest Raspberry Pi OS *bullseye* a few days ago, and as you may have guessed, it includes exadrums packages:
-
-![image](/images/raspberry-pi-os-bullseye/screenshot.png)
-
-Now, you simply have to type `sudo apt install exadrums` into a terminal to install exadrums on your Raspberry Pi.
-
-<!--more-->
-
-It took some time to get to that point, but you get exadrums 0.6.0, which fairly recent, and works on my Roland TD-4KP drum set.
-If you'd like to try exadrums with your TD-4KP drum set, it's quite easy.
-First of all, you'll need to install *zip*, as it's not installed by default: `sudo apt install zip`.
-Then, you can go to the following page: https://github.com/SpintroniK/exadrums-data/tree/TD-4KP and follow the instructions.
-
-Obviously, the project is still under development and future versions will support more inputs, and have a lot of improvements.
-The official documentation is far from being complete, but I'll make sure to add guidelines to help install the latest version of exadrums on a Raspberry Pi. I will make sure the future versions work on the current version of Raspberry Pi OS *bullseye*. Stay tuned, new versions are coming!
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 5]]></title>
-            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</link>
-            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</guid>
-            <pubDate>Wed, 15 Jun 2022 18:25:57 GMT</pubDate>
-            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 4.
-As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
-
-I've been able to test it with my Roland TD17 and it works very well.
-In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
-Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
-For my tests, I used hydrogen as a VST. It may not be the best, but it felt like playing with high quality material.]]></description>
-            <content:encoded><![CDATA[
-This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 4](/article/new-arduino-nano-every-board-part4).
-
-As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
-
-![image](/images/new-arduino-nano-every-board/board.png)
-
-I've been able to test it with my Roland TD17 and it works very well.
-In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
-Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
-For my tests, I used [hydrogen](https://hydrogen-music.org/) as a VST. It may not be the best, but it felt like playing with high quality material.
-
-<!--more-->
-
-## Context and Description
-
-This project is part of the eXaDrums project.
-It features a new board that allows to connect 8 drum pads to an Arduino Nano Every that, in turns, sends MIDI notes over USB.
-The board hardware and software are both compatible with eXaDrums, but it can also be used as a standalone device.
-
-The project name is eXadrumino Nano Every. It is a high performance firmware that allows to read eight analog inputs very fast and send MIDI notes over USB, or via the on-board USART. Using eXaDrums or a PC loaded with a VST, it allows to play drums with a very low latency.
-The board itself is called *eXaDrums TB08-SE*, and it is compatible with other microcontrollers than the Arduino Nano Every.
-
-Here's a brief reminder of the specs I gave in the first part of this series of articles:
-
-- Works on PC and Raspberry Pi.
-- Up to 7 single-zone pads + 1 hi-hat controller.
-- Compatible with Roland TD-9, TD-11, TD-15, TD-17, TD-25, and TD-27-based edrum kits (DB25 connector).
-- Sample rate greater than 70ksps (kilo samples per second).
-- Nearly 9000 samples per second and per channel (8928 in average).
-- Configurable trigger parameters: threshold, scan time and mask time (1ms step).
-- Configurable MIDI channel and notes.
-
-The last two are still under development.
-
-## How to Get the Board?
-
-I designed a board and got 5 prototypes PCBs.
-However, that board requires some refinements. I would like to make some changes before I share the whole PCB so that it is as good as it can be.
-Meanwhile, you can easily replicate the schematics, as it is a quite simple circuit.
-Every piezo is wired to a single operational amplifier that acts as a simple amplifier that adds a bias voltage to the signal.
-Here's how it looks:
-
-![Circuit](/images/new-arduino-nano-every-board/Piezo-circuit.png)
-
-The `Vcc` voltage is taken from the Arduino's 5V `power out` (pin number 12).
-At the `Vbias` pin, the voltage is 1.65V.
-It is obtained by using a voltage divider made of two 10k resistors that are wired to the 3.3V `power out` pin of the Arduino (pin number 2).
-
-The hi-hat controller input is a little different, and simpler.
-It consists of a single 4.7k resistor wired to the 3.3V pin of the Arduino on one side, and the hi-hat controller as well as the `+` input of voltage follower. It is the same divider for all operational amplifiers.
-
-And that's it, you know everything. There are 4 dual operational amplifiers on the board, which makes a total of 8 inputs.
-I got my prototypes from JLCPCB, using their SMT sevice, which means that I received assembled boards, that is, all the components were already soldered, except for the Raspberry Pi GPIO header socket.
-If you'd like to get you own board, I do recommend JLCPCB, the PCBs are good quality and affordable, the only downside is the shipping cost.
-Or, if you're patient, you can wait until I'm done with improving the board's layout, it shouldn't take too long.
-Again, I just want to make the best board possible, which will require a few changes.
-
-## Where is the Code?
-
-The code is freely available at [GitHub](https://github.com/SpintroniK/exadrumino-Nano-Every).
-You'll find more details as well as instructions that will help you flash the code to your Arduino.
-Note that the code is still a work in progress, some features are not their yet.
-The most important missing features are those that allow to change trigger and MIDI parameters via the USART, and save those parameters to the on-board EEPROM.
-
-## Previous and Next Parts
-
-So far there has been 4 parts published in this series of articles. This is the fifth one.
-Here's a reminder of the previous parts and what they talk about:
-
-- [Part 1](/article/new-arduino-nano-every-board-part1): New board specs, and how it works.
-- [Part 2](/article/new-arduino-nano-every-board-part2): Makefile and the way C++ has been used to write the firmware.
-- [Part 3](/article/new-arduino-nano-every-board-part3): Sending serial MIDI notes over USB.
-- [Part 4](/article/new-arduino-nano-every-board-part4): How to use the ADC to make an oscilloscope and read triggers voltages.
-
-There will be at least two more parts which will deal with the following topics:
-
-- Part 6: How to get an efficient real-time counter.
-- Part 7: How to filter the piezo output signal very fast to make a drum trigger.
-- Part 8: How to read and write values to the on-board EEPROM.
-- Maybe more...
-
-See you next time!
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Future of exadrums]]></title>
-            <link>https://news.exadrums.com/article/the-future-of-exadrums</link>
-            <guid>https://news.exadrums.com/article/the-future-of-exadrums</guid>
-            <pubDate>Wed, 25 Aug 2021 14:48:20 GMT</pubDate>
-            <description><![CDATA[The future of exadrums is probably different than what you may think.
-So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.]]></description>
-            <content:encoded><![CDATA[
-The future of exadrums is probably different than what you may think.
-
-So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.
-
-<!--more-->
-
-A C++ user interface has its advantages, but exadrums could benefit from other languages. For instance,  a more "connected" experience would be easier to implement in Python or Javascript.
-
-And that's how I see the future of exadrums: a Connected Open Source Drum Module. Some things are already in the works, but others will take some time. However, I'll do my best to publish news more frequently, to keep you informed about the project.
-
-About that, the project website [exadrums.com](https://exadrums.com) will be online pretty soon! Hope you'll like it.
 ]]></content:encoded>
         </item>
     </channel>
