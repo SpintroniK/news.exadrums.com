@@ -45,17 +45,17 @@ But, in MIDI, drums use channel 10, so how do we send a note over channel 10?
 
 To answer that question, we are going to use hexadecimal values instead of decimal.
 The *Note On* command for channel 0 is 144, which becomes `0x90` in hexadecimal.
-Channel number 10, becomes channel number `0x0A`, so a *Note On* command over channel 10 is `0x9A`.
-By the way `0x9A` is 154 in decimal, so that's just `144 + 10`, which is the *Note On* command *plus* the channel number.
+Channel number 10, becomes channel number `0x09` (because they are numbered from 0!), so a *Note On* command over channel 10 is `0x99`.
+By the way `0x99` is 153 in decimal, so that's just `144 + 9`, which is the *Note On* command *plus* the channel number (with the first channel being numbered as 0).
 
 ### Drum Notes
 
 Now, we know how to send a *Note On* command. It is quite simple, as only one byte needs to be sent.
-This byte value is `0x9A` in hexadecimal if we use channel 10.
+This byte value is `0x99` in hexadecimal if we use channel 10.
 
 If a MIDI instrument were to received that command, it would need to know which note to play.
 This is why the *Note On* command must be followed by the note number.
-Lets say we want a snare drum sound, we need to send `0x9A` followed by 38, or `0x26`.
+Lets say we want a snare drum sound, we need to send `0x99` followed by 38, or `0x26`.
 
 And that's it. If an instrument receives those two bytes one after another it will know that it should play a snare drum note.
 But it won't, because there's still one thing that's missing here: the velocity.
@@ -66,7 +66,7 @@ It would be no fun at all if all the notes had the same velocity.
 That's why a third byte follows the MIDI command and MIDI note number, and that third byte represents the velocity.
 The velocity goes from 0 to 127 (yes it uses only 7 bits).
 
-Finally, to send a snare drum note with a velocity of 92, we have to send 3 bytes: `154, 38, 92` or, in hexadecimal: `0x9A, 0x26, 0x5C`.
+Finally, to send a snare drum note with a velocity of 92, we have to send 3 bytes: `154, 38, 92` or, in hexadecimal: `0x99, 0x26, 0x5C`.
 
 ### Baud Rate & Latency
 
@@ -379,17 +379,17 @@ int main()
 
         if(snareNotes[i] == 1)
         {
-            midi.NoteOn<10>(snareNote, 80);
+            midi.NoteOn<9>(snareNote, 80);
         }
 
         if(hihatNotes[i] == 1)
         {
-            midi.NoteOn<10>(hhNote, 80);
+            midi.NoteOn<9>(hhNote, 80);
         }
 
         if(bassDrumNotes[i] == 1)
         {
-            midi.NoteOn<10>(bdNote, 80);
+            midi.NoteOn<9>(bdNote, 80);
         }
 
         i = ++i % nbNotes;

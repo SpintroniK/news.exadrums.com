@@ -566,5 +566,5 @@ So getting one sample every 14 µs means we can aim for 8928 samples per second 
 
 ## What's Next?
 
-New time I'll share the code, as it is now usable and I've tested it with my Roland TD17 e-drum.
+Next time I'll share the code, as it is now usable and I've tested it with my Roland TD17 e-drum.
 Stay tuned!
