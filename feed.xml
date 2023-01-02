@@ -4,9 +4,71 @@
         <title>exadrums - news</title>
         <link>https://news.exadrums.com/feed.xml</link>
         <description>eXaDrums project: latest news.</description>
-        <lastBuildDate>Thu, 07 Jul 2022 10:53:45 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jan 2023 18:54:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[Debian 11 - Bullseye]]></title>
+            <link>https://news.exadrums.com/article/debian-bullseye</link>
+            <guid>https://news.exadrums.com/article/debian-bullseye</guid>
+            <pubDate>Sat, 14 Aug 2021 12:08:07 GMT</pubDate>
+            <description><![CDATA[Today, Debian 11 (Bullseye), has been officially released. This is a great news for exadrums, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and some other distros), you can install exadrums via apt, i.e.:
+sudo apt install exadrums
+]]></description>
+            <content:encoded><![CDATA[
+Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and some [other distros](https://repology.org/project/exadrums/packages)), you can install exadrums via `apt`, i.e.:
+
+```bash
+sudo apt install exadrums
+```
+<!--more-->
+
+## What does this mean?
+
+Well, if you have about 5 MB to spare, you can install exadrums from the command line directly.
+Here's what you see from a fresh Debian Bullseye install:
+
+![image](/images/debian-bullseye/Screenshot_2021-08-15_11-14-02.png)
+
+No more compiling, etc. `apt` handles everything for you!
+
+## What about Raspberry Pi OS?
+
+It's only been a few hours since Debian 11 has been released, so there's no news about the next Raspberry Pi OS (formerly Raspbian). Let's give them some time to publish a proper release.
+I can already tell you that you'll get the same version of exadrums as Debian in Raspberry Pi OS, it'll be exadrums 0.6.0.
+
+Anyhow, when the new Raspberry Pi OS will be released, you'll be able to install exadrums via `apt` on your Raspberry Pi.
+
+## Using Debian Bullseye on a Raspberry Pi
+
+If you don't want to wait until the version of Raspberry Pi OS comes out, you can install Debian Bullseye on your Raspberry Pi using one of the images available at: [ Tested images](https://raspi.debian.net/tested-images/). I haven't tried any of them, but they've been tested, so they should work.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[TD-4KP Configuration]]></title>
+            <link>https://news.exadrums.com/article/TD-4KP-configuration</link>
+            <guid>https://news.exadrums.com/article/TD-4KP-configuration</guid>
+            <pubDate>Mon, 27 Sep 2021 20:26:32 GMT</pubDate>
+            <description><![CDATA[You might not now that you can export and import your exadrums configuration.
+This is a simple feature, but it can be very useful to create backups of your drum kits, or share them.
+The first eXaDrums triggers input board has been designed for the Roland TD-4KP.
+Wouldn't be nice to save all the triggers settings, instruments sounds, etc. for this drum kit, so that anyone can play with the TD-4KP?
+Here's why I'm sharing the configuration I've been using for my tests on that drum kit: https://github.com/SpintroniK/exadrums-data/tree/TD-4KP.]]></description>
+            <content:encoded><![CDATA[
+You might not now that you can export and import your exadrums configuration.
+This is a simple feature, but it can be very useful to create backups of your drum kits, or share them.
+The first eXaDrums triggers input board has been designed for the Roland TD-4KP.
+Wouldn't be nice to save all the triggers settings, instruments sounds, etc. for this drum kit, so that anyone can play with the TD-4KP?
+Here's why I'm sharing the configuration I've been using for my tests on that drum kit: [https://github.com/SpintroniK/exadrums-data/tree/TD-4KP](https://github.com/SpintroniK/exadrums-data/tree/TD-4KP).
+
+<!--more-->
+
+If you click on the link, you'll notice that there's a little Readme file to help you install the kit.
+It's a very simple and quick operation.
+
+With any luck, reading this post will make you want to export some of your kits.
+I think this is one of the steps that will add a social dimension to exadrums, so be prepared to see more things going in that direction in the future!
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Exadrums.com]]></title>
             <link>https://news.exadrums.com/article/exadrums-dot-com</link>
@@ -62,68 +124,6 @@ I'll keep you informed about the progress I make on that page.
 It should be available in a few weeks, or a few months.
 I'm not in a rush, as my goal is to make the best user guide possible.
 ]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[TD-4KP Configuration]]></title>
-            <link>https://news.exadrums.com/article/TD-4KP-configuration</link>
-            <guid>https://news.exadrums.com/article/TD-4KP-configuration</guid>
-            <pubDate>Mon, 27 Sep 2021 20:26:32 GMT</pubDate>
-            <description><![CDATA[You might not now that you can export and import your exadrums configuration.
-This is a simple feature, but it can be very useful to create backups of your drum kits, or share them.
-The first eXaDrums triggers input board has been designed for the Roland TD-4KP.
-Wouldn't be nice to save all the triggers settings, instruments sounds, etc. for this drum kit, so that anyone can play with the TD-4KP?
-Here's why I'm sharing the configuration I've been using for my tests on that drum kit: https://github.com/SpintroniK/exadrums-data/tree/TD-4KP.]]></description>
-            <content:encoded><![CDATA[
-You might not now that you can export and import your exadrums configuration.
-This is a simple feature, but it can be very useful to create backups of your drum kits, or share them.
-The first eXaDrums triggers input board has been designed for the Roland TD-4KP.
-Wouldn't be nice to save all the triggers settings, instruments sounds, etc. for this drum kit, so that anyone can play with the TD-4KP?
-Here's why I'm sharing the configuration I've been using for my tests on that drum kit: [https://github.com/SpintroniK/exadrums-data/tree/TD-4KP](https://github.com/SpintroniK/exadrums-data/tree/TD-4KP).
-
-<!--more-->
-
-If you click on the link, you'll notice that there's a little Readme file to help you install the kit.
-It's a very simple and quick operation.
-
-With any luck, reading this post will make you want to export some of your kits.
-I think this is one of the steps that will add a social dimension to exadrums, so be prepared to see more things going in that direction in the future!
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Debian 11 - Bullseye]]></title>
-            <link>https://news.exadrums.com/article/debian-bullseye</link>
-            <guid>https://news.exadrums.com/article/debian-bullseye</guid>
-            <pubDate>Sat, 14 Aug 2021 12:08:07 GMT</pubDate>
-            <description><![CDATA[Today, Debian 11 (Bullseye), has been officially released. This is a great news for exadrums, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and some other distros), you can install exadrums via apt, i.e.:
-sudo apt install exadrums
-]]></description>
-            <content:encoded><![CDATA[
-Today, Debian 11 (Bullseye), has been officially released. This is a great news for *exadrums*, as this means it is now available in Debian. If you're using Debian (or Ubuntu, Raspberry Pi OS, and some [other distros](https://repology.org/project/exadrums/packages)), you can install exadrums via `apt`, i.e.:
-
-```bash
-sudo apt install exadrums
-```
-<!--more-->
-
-## What does this mean?
-
-Well, if you have about 5 MB to spare, you can install exadrums from the command line directly.
-Here's what you see from a fresh Debian Bullseye install:
-
-![image](/images/debian-bullseye/Screenshot_2021-08-15_11-14-02.png)
-
-No more compiling, etc. `apt` handles everything for you!
-
-## What about Raspberry Pi OS?
-
-It's only been a few hours since Debian 11 has been released, so there's no news about the next Raspberry Pi OS (formerly Raspbian). Let's give them some time to publish a proper release.
-I can already tell you that you'll get the same version of exadrums as Debian in Raspberry Pi OS, it'll be exadrums 0.6.0.
-
-Anyhow, when the new Raspberry Pi OS will be released, you'll be able to install exadrums via `apt` on your Raspberry Pi.
-
-## Using Debian Bullseye on a Raspberry Pi
-
-If you don't want to wait until the version of Raspberry Pi OS comes out, you can install Debian Bullseye on your Raspberry Pi using one of the images available at: [ Tested images](https://raspi.debian.net/tested-images/). I haven't tried any of them, but they've been tested, so they should work.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[How to Make a Modern Drum Module]]></title>
@@ -1289,577 +1289,6 @@ See you next time!
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 5]]></title>
-            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</link>
-            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</guid>
-            <pubDate>Wed, 15 Jun 2022 18:25:57 GMT</pubDate>
-            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 4.
-As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
-
-I've been able to test it with my Roland TD17 and it works very well.
-In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
-Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
-For my tests, I used hydrogen as a VST. It may not be the best, but it felt like playing with high quality material.]]></description>
-            <content:encoded><![CDATA[
-This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 4](/article/new-arduino-nano-every-board-part4).
-
-As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
-
-![image](/images/new-arduino-nano-every-board/board.png)
-
-I've been able to test it with my Roland TD17 and it works very well.
-In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
-Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
-For my tests, I used [hydrogen](https://hydrogen-music.org/) as a VST. It may not be the best, but it felt like playing with high quality material.
-
-<!--more-->
-
-## Context and Description
-
-This project is part of the eXaDrums project.
-It features a new board that allows to connect 8 drum pads to an Arduino Nano Every that, in turns, sends MIDI notes over USB.
-The board hardware and software are both compatible with eXaDrums, but it can also be used as a standalone device.
-
-The project name is eXadrumino Nano Every. It is a high performance firmware that allows to read eight analog inputs very fast and send MIDI notes over USB, or via the on-board USART. Using eXaDrums or a PC loaded with a VST, it allows to play drums with a very low latency.
-The board itself is called *eXaDrums TB08-SE*, and it is compatible with other microcontrollers than the Arduino Nano Every.
-
-Here's a brief reminder of the specs I gave in the first part of this series of articles:
-
-- Works on PC and Raspberry Pi.
-- Up to 7 single-zone pads + 1 hi-hat controller.
-- Compatible with Roland TD-9, TD-11, TD-15, TD-17, TD-25, and TD-27-based edrum kits (DB25 connector).
-- Sample rate greater than 70ksps (kilo samples per second).
-- Nearly 9000 samples per second and per channel (8928 in average).
-- Configurable trigger parameters: threshold, scan time and mask time (1ms step).
-- Configurable MIDI channel and notes.
-
-The last two are still under development.
-
-## How to Get the Board?
-
-I designed a board and got 5 prototypes PCBs.
-However, that board requires some refinements. I would like to make some changes before I share the whole PCB so that it is as good as it can be.
-Meanwhile, you can easily replicate the schematics, as it is a quite simple circuit.
-Every piezo is wired to a single operational amplifier that acts as a simple amplifier that adds a bias voltage to the signal.
-Here's how it looks:
-
-![Circuit](/images/new-arduino-nano-every-board/Piezo-circuit.png)
-
-The `Vcc` voltage is taken from the Arduino's 5V `power out` (pin number 12).
-At the `Vbias` pin, the voltage is 1.65V.
-It is obtained by using a voltage divider made of two 10k resistors that are wired to the 3.3V `power out` pin of the Arduino (pin number 2).
-
-The hi-hat controller input is a little different, and simpler.
-It consists of a single 4.7k resistor wired to the 3.3V pin of the Arduino on one side, and the hi-hat controller as well as the `+` input of voltage follower. It is the same divider for all operational amplifiers.
-
-And that's it, you know everything. There are 4 dual operational amplifiers on the board, which makes a total of 8 inputs.
-I got my prototypes from JLCPCB, using their SMT sevice, which means that I received assembled boards, that is, all the components were already soldered, except for the Raspberry Pi GPIO header socket.
-If you'd like to get you own board, I do recommend JLCPCB, the PCBs are good quality and affordable, the only downside is the shipping cost.
-Or, if you're patient, you can wait until I'm done with improving the board's layout, it shouldn't take too long.
-Again, I just want to make the best board possible, which will require a few changes.
-
-## Where is the Code?
-
-The code is freely available at [GitHub](https://github.com/SpintroniK/exadrumino-Nano-Every).
-You'll find more details as well as instructions that will help you flash the code to your Arduino.
-Note that the code is still a work in progress, some features are not their yet.
-The most important missing features are those that allow to change trigger and MIDI parameters via the USART, and save those parameters to the on-board EEPROM.
-
-## Previous and Next Parts
-
-So far there has been 4 parts published in this series of articles. This is the fifth one.
-Here's a reminder of the previous parts and what they talk about:
-
-- [Part 1](/article/new-arduino-nano-every-board-part1): New board specs, and how it works.
-- [Part 2](/article/new-arduino-nano-every-board-part2): Makefile and the way C++ has been used to write the firmware.
-- [Part 3](/article/new-arduino-nano-every-board-part3): Sending serial MIDI notes over USB.
-- [Part 4](/article/new-arduino-nano-every-board-part4): How to use the ADC to make an oscilloscope and read triggers voltages.
-
-There will be at least two more parts which will deal with the following topics:
-
-- Part 6: How to get an efficient real-time counter.
-- Part 7: How to filter the piezo output signal very fast to make a drum trigger.
-- Part 8: How to read and write values to the on-board EEPROM.
-- Maybe more...
-
-See you next time!
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 6]]></title>
-            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part6</link>
-            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part6</guid>
-            <pubDate>Tue, 05 Jul 2022 16:11:31 GMT</pubDate>
-            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 5.
-In this part, we are going to talk about real-time counters.
-In particular, we'll see advantages of using a relative time reference.
-And we'll also see how the following figure helps us measure a time difference efficiently using a single byte as our time reference!
-]]></description>
-            <content:encoded><![CDATA[
-This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 5](/article/new-arduino-nano-every-board-part5).
-
-In this part, we are going to talk about real-time counters.
-In particular, we'll see advantages of using a relative time reference.
-
-And we'll also see how the following figure helps us measure a time difference efficiently using a single byte as our time reference!
-
-![delta](/images/new-arduino-nano-every-board/delta.png)
-
-<!--more-->
-
-## Absolute and Relative Time Reference
-
-The first important thing that we need to know is that we can't have an absolute time reference.
-Because our time reference needs to store the time in a variable, it will overflow at some point.
-That means, an absolute time reference remains absolute as long as the counter variable doesn't overflow.
-
-This is a major drawback, especially for limited hardware, where incrementing a 32-bit variable can be very expensive.
-An 8-bit microcontroller such as the ATMega4809 isn't able to increment a 32-bit variable in a single instruction.
-So, to avoid overflows, we need to either decrease the resolution of our counter, or store its value into a bigger variable.
-But, this won't prevent the counter from overflowing at some point anyway... So what can we do about that?
-
-Here's an example to illustrate our problem.
-Say we want to increment a counter every microsecond.
-We are playing drums an hour or two every day, and we'd like our time reference to be absolute.
-
-Let's say we want to store our counter value in a 32-bit integer.
-That leaves us with 4295 seconds before the counter overflows, which is slightly more than an hour.
-We have three solutions:
-
-- Use a 64-bit variable, which will cause an overflow after a few billion years.
-- Increase the resolution of our timer to, say 1 ms, so that we get nearly 50 days before the variable overflows.
-- Work with a relative time reference instead of an absolute one.
-
-All three options work, but we are interested in the latter, as this will allow us to store our count in a 16-bit, possibly a 8-bit variable.
-
-A relative time reference is a single variable that is incremented at regular interval.
-The only difference with an absolute time reference is that we know it will overflow at some point, and that's not a problem.
-
-## Relative Time Reference
-
-### How it Works
-
-Contrary to the absolute time reference, the relative time reference needs to be compared to another variable.
-For instance, if a drum pad is hit, we get the value of our relative time reference (counter) and memorize it.
-After some time, we are going to check how much time has elapsed since we've memorized the time reference value.
-
-### Practical Example
-
-First of all, we need to state the requirements for our time reference.
-We'd like to make a drum module, so the time reference will be used to manage the triggers states.
-That includes the trig time, scan time, and mask time.
-For those values, it would be nice to have a resolution of 0.1 or 0.5 ms, something like that.
-However, I will choose a step of 1 ms.
-The main reason for that, is that 0.1 ms is too small and 0.5 ms could lead to confusion...
-
-Let's say we use a 8-bit variable for our counter.
-It is incremented every millisecond, so it can count from zero to 255 ms.
-And it does so continuously until it overflows and goes back to zero.
-
-Now if a drum pad is hit, the trigger registers the current value of the counter.
-Imagine that the value of the counter is 42. It is stored in a `trigTime` variable.
-We set the scan time to 4 ms, which means the scan time will be done when the counter reaches 46.
-The only thing we need to know is: is the counter greater or equal to 46.
-
-A problem arises if the counter overflows, though.
-Let's say the pad has been hit when the counter's value was 254.
-We'll know that the scan time is over when the counter's value will be greater or equal to 258.
-But our 8-bit variable will overflow before that, so we'll get the following sequence: 254, 255, 0, 1, 2, instead of 254, 255, 256, 257, 258.
-
-Fortunately, we can do something about that.
-Instead of using unsigned integers, we can use signed integers, but we're going to go over a few other details before we do so.
-We still use a 8-bit unsigned integer to store our counter's value, so it can go from 0 to 255.
-We do the same for our scan time variable.
-In order to determine if we have waited for a longer time than the scan time here's what we need to compute: `const uint8_t delta = trigTime + scanTime - currentTime;`.
-
-So far, we still use an unsigned integer, but, let's examine precisely what happens with the previous values.
-We have `trigTime = 254` and `scanTime = 4`.
-Here's what happens if we subtract the `currentTime` variable to the previous value:
-
-1. If `currentTime = 255` we get `delta =  254 + 4 - 255 = 3`.
-2. If `currentTime` overflows, for instance, `currentTime = 1`, we get `delta =  254 + 4 - 1 = 1`.
-3. If `currentTime` overflows, and we've waited longer than the scan time, for instance, `currentTime = 4`, we get `delta = 254 + 4 - 4 = 254`.
-
-### A Little Bit of Theory
-
-Now let's see what happens for a different value of `trigTime`: `trigTime = 120`, and consider a longer scanTime: `scanTime = 100`.
-
-1. If `currentTime = 128` we get `delta =  120 + 100 - 128 = 92`.
-2. If `currentTime` doesn't overflow, for instance, `currentTime = 200`, we get `delta =  120 + 100 - 200 = 20`.
-3. If `currentTime` doesn't overflow, and we've waited longer than the scan time, for instance, `currentTime = 240`, we get `delta = 120 + 100 - 240 = 236`.
-
-We see something interesting here, for cases 1 and 2, delta remains below 127, but in both cases, point number 3 gives us a value that is above 128.
-This is understandable, because if `currentTime >= trigTime + scanTime`, `deltat = rigTime + scanTime - currentTime` goes below zero.
-But with unsigned integers, that means `delta` is now 255 minus something, so we get 254 or 236 in the second third case.
-Notice how the result is the same whether the value overflows or not!
-
-What that means is that perhaps we should treat `delta` as a signed integer.
-It's important to note that, even if we treat `delta` as a signed integer, the underlying binary value of `delta` remains the same.
-
-A signed 8-bit integer goes from -128 to 127. The most significant bit, or MSB, determines the sign.
-If that bit is set to 1, the value is negative, otherwise, it is positive.
-So, if we count from zero, the value goes like this: 0, 1, 2, 3, ..., 126, 127, -128, -127, -126, ..., -3, -2, -1.
-Which is to be compared to a unsigned integer that goes like: 0, 1, 2, 3, ..., 126, 127, 128, 129, 130, ..., 253, 254, 255.
-Both sequences are different representations of the same binary value.
-
-This means that `delta` is negative if the elapsed time since the trig time is longer than the scan time.
-Back to our first example, but this time using the signed representation of delta:
-
-1. If `currentTime = 255` we get `delta =  254 + 4 - 255 = 3`.
-2. If `currentTime` overflows, for instance, `currentTime = 2`, we get `delta =  254 + 4 - 2 = 0`.
-3. If `currentTime` overflows, and we've waited longer than the scan time, for instance, `currentTime = 4`, we get `delta = 254 + 4 - 4 = -2`.
-
-We have the following three cases:
-
-- If we have waited less than the scan time duration, the value is positive.
-- If we have waited exactly the duration of the scan time, the value is zero.
-- If we have waited more than the scan time duration, the value is negative.
-
-Let's visualize what's happening here.
-
-![delta](/images/new-arduino-nano-every-board/delta.png)
-
-The value of `delta` reaches 0 when the elapsed time since the trig time is exactly the scan time.
-For an unsigned integer, the next value is 255, and if we cast `delta` to a signed integer, it is -1.
-There are a few options to detect the transition:
-
-- We could simply test if the unsigned representation of `delta` is greater or equal to 128.
-- We could test the MSB of the unsigned representation of `delta`.
-- Or we could cast `delta` to a signed integer an check if the value is negative.
-
-I like the latter the most because it gives us a useful information for free: the elapsed time since the end of the scan time.
-That time is equal to `-delta`.
-However, there's one thing that I didn't mention: we loose half of the values of our 8-bit integer.
-All three options above lead to the same result, we can now only measure time differences that go from 0 to 128ms.
-
-If you'd like a to read a slightly different explanation of this idea, please read the [following article from Lucky Resistor](https://luckyresistor.me/2019/07/10/real-time-counter-and-integer-overflow/).
-
-## Using TCB0 as a Real Time Counter
-
-We are already using the TCA counter to trigger the ADC conversions, so we are going to use the TCB0 timer/counter instead.
-
-### Configure TCB0 and Handle Interrupts
-
-The TCB timer/counter can do a lot of things, but we're only going to use it as a counter here.
-First of all, we define a class to handle the counters interrupts:
-
-```cpp
-class TCBInterrupts
-{
-
-public:
-    TCBInterrupts() = delete;
-    ~TCBInterrupts() = delete;
-
-private:
-
-    static void TCB0Overflow() __asm__("__vector_12") __attribute__((__signal__, __used__, __externally_visible__));
-    static void TCB1Overflow() __asm__("__vector_13") __attribute__((__signal__, __used__, __externally_visible__));
-
-};
-```
-
-And yes, "counters" with an "s", as there are 4 TCB timers.
-Note that I implemented the interrupts for TCB0 and TCB1 only.
-
-Now let's add a little helper to choose the right clock for TCB0:
-
-```cpp
-enum class TCBClock
-{
-    Div1,
-    Div2,
-    TCA
-};
-```
-
-We'll use the same clock as TCA.
-And now a class to configure the TCB counters:
-
-```cpp
-template <uint8_t nb>
-class TCB
-{
-
-public:
-    TCB() = delete;
-    ~TCB() = delete;
-
-    static constexpr void EnableInterrupts()
-    {
-        tcb().INTCTRL =  TCB_CAPT_bm;
-    }
-
-    static constexpr void ResetInterrupt()
-    {
-        tcb().INTFLAGS |= TCB_CAPT_bm;
-    }
-
-    static constexpr void SetCompareOrCapture(uint16_t value)
-    {
-        tcb().CCMP = value;
-    }
-
-    static constexpr void Enable()
-    {
-        tcb().CTRLA |= TCB_ENABLE_bm;
-    }
-
-    template <TCBClock clock>
-    static constexpr void SetClock()
-    {
-        switch(clock)
-        {
-            case TCBClock::Div1: tcb().CTRLA |= TCB_CLKSEL_CLKDIV1_gc; break;
-            case TCBClock::Div2: tcb().CTRLA |= TCB_CLKSEL_CLKDIV2_gc; break;
-            case TCBClock::TCA: tcb().CTRLA |= TCB_CLKSEL_CLKTCA_gc; break;
-        }
-    }
-
-private:
-
-    static constexpr auto& tcb()
-    {
-        switch(nb)
-        {
-            case 0: return TCB0;
-            case 1: return TCB1;
-            case 2: return TCB2;
-            case 3: return TCB3;
-            default: static_assert(nb <= 3, "Wrong TCB number.");
-        }
-    }
-
-};
-
-```
-
-The functions names are self-explanatory.
-
-### A Real-Time Counter
-
-Before we continue, we need one more ingredient: a counter.
-To that end, I'll make a class template that will allow to choose the type of variable that the counter uses.
-
-```cpp
-template <typename T>
-class Counter
-{     
-
-public:
-
-    Counter() = default;
-    ~Counter() = default;
-
-    constexpr T GetCount()
-    {
-        return count;
-    }
-
-    constexpr void Increment()
-    {
-        ++count;
-    }
-
-private:
-
-    T count{};
-};
-```
-
-And that's it, now we can add all these niceties to our main function.
-
-```cpp
-
-#include "Adc.hpp"
-#include "Counter.hpp"
-#include "TCB.hpp"
-
-#include <avr/io.h>
-#include <avr/interrupt.h>
-
-using Adc0 = Adc<Adc0Addr, Adc8bitType>;
-using Tcb = TCB<0>;
-
-Counter<uint8_t> clock{};
-
-void Analog::AdcInterrupts::ResReady()
-{
-    Adc0::ResetInterrupt();
-    trigger.Process(ADC0.RES, clock.GetCount());
-}
-
-void Timing::TCBInterrupts::TCB0Overflow()
-{
-    Tcb::ResetInterrupt();
-    clock.Increment();
-}
-
-int main()
-{
-
-    while(1)
-    {
-        ;
-    }
-
-    return 0;
-}
-
-```
-
-We use the relative time reference in the ADC interrupt, so that we know how much time has elapsed since we've received the previous samples.
-In this interrupt there's a `trigger.Process()` function.
-It is the function that will process the ADC data, together with the time reference, to compute the trigger state.
-Here's an example that shows how this function can use the relative time reference:
-
-```cpp
-void Trigger::Process(uint8_t data, uint8_t time) const
-{
-    // [...]
-
-    const uint8_t delta = this->trigTime + this->scanTime - time;
-
-    if(static_cast<int8_t>(delta) <= 0)
-    {
-        // ...
-    }
-
-    // [...]
-}
-```
-
-At some point in time, the ADC value exceeds a certain threshold, which in turn, puts the trigger in scan state.
-The trigger remains in that state for `scanTime` milliseconds.
-During that time, the peak value of the signal is computed.
-
-The question we answer here is: how do we know when the scan time is over?
-And the answer is simple: we check whether the signed representation of `delta` is positive or negative.
-As soon as it becomes a negative value, we know that the scan time is over and we're done computing the signal's peak value.
-Thus, we can go on and put the trigger in its next state, etc.
-
-There we are, with a single byte we get a relative time reference that we can use to measure delays from 1 to 128 ms.
-We don't need it to be an absolute time reference as long as we use a variable to memorize the start of the delay (`trigTime`).
-Using this method, we can measure as many delays as we want as long they remain under 128 ms, and that we use a byte for each delay to memorize the when it starts.
-Of course this also works if we use a 16-bit variable (or even bigger), it is just faster to use a 8-bit variable on a 8-bit CPU.
-
-## What's Next?
-
-Next time we'll talk about signal processing.
-In particular, we will see how to make a high-pass filter that performs well with a 8-bit microcontroller.
-
-See you next time!
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[New SPI Sensors Configurator ⇒ More Trigger Inputs]]></title>
-            <link>https://news.exadrums.com/article/new-spi-sensors-config</link>
-            <guid>https://news.exadrums.com/article/new-spi-sensors-config</guid>
-            <pubDate>Sat, 11 Dec 2021 13:31:28 GMT</pubDate>
-            <description><![CDATA[Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
-This features aims to provide a way to add as many SPI devices as you want.
-Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
-This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
-]]></description>
-            <content:encoded><![CDATA[
-Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
-This features aims to provide a way to add as many SPI devices as you want.
-Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
-
-This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
-
-![image](/images/new-spi-sensors-config/spidev-config.png)
-
-<!--more-->
-
-## How SPI Devices Work
-
-An SPI analog to digital converter takes in analog data, digitizes it, and sends it to a Raspberry Pi using the SPI bus.
-SPI communication offers many advantages, and one of them is that it's quite easy to communicate with several devices.
-The first eXaDrums input board uses a single MCP3008 chip, which limits the number of inputs to 8.
-Adding another MCP3008 would increase that number to 16, and if you want even more inputs, you could add a third one.
-
-The Raspberry Pi offers at least one SPI interface that has two `Chip Select` inputs (also called *Chip Enable*).
-So, with a single SPI bus, `SPI0`, the Raspberry Pi can communicate with two devices, by changing the states of the chip selects pins `CE0` and `CE1`.
-
-But that's not it. Recent Raspberry Pis have another SPI *bus*: `SPI1`. And it can handle up to three devices via its three chip select inputs `CE0`, `CE1`, and `CE2`.
-So, in theory it's possible to have up to 5 SPI Analog to Digital converters. Imagine 5 MCP3008, that would mean up to 40 inputs!
-Note that the Raspberry Pi 4 has even more SPI buses, so that should be more than enough, even for a big drum kit with a lot of triggers.
-
-It's important to note that SPI devices are grouped by bus and chip select, and this is exactly how the SPI configuration works in exadrums.
-
-## How to Configure SPI Devices
-
-Only supported devices are allowed in the SPI configuration dialog. They are currently limited to MCP3008, MCP3204, and MCP3208.
-Each device must be associated to a bus and a chip select.
-And that's basically it.
-
-Here is an example.
-You make a trigger input board that needs to handle up to 16 analog inputs.
-The MCP3008 is a good choice, so you decide to use two of them.
-You can either have one of them use the `SPI0`, and the other the `SPI1`, or you can have them both use `SPI1` and choose to use two different chip selects, i.e. `CE0` and `CE1`.
-So your configuration is:
-|  Name   | Bus | CS |
-|---------|-----|----|
-| MCP3008 |  0  |  0 |
-| MCP3008 |  0  |  1 |
-
-And this is exactly how you can configure your SPI devices in exadrums (see screenshot above).
-By doing that, you'll be able to create up to 16 triggers, numbered 0 to 15, and everything will work out of the box.
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Raspberry Pi OS - Bullseye]]></title>
-            <link>https://news.exadrums.com/article/raspberry-pi-os-bullseye</link>
-            <guid>https://news.exadrums.com/article/raspberry-pi-os-bullseye</guid>
-            <pubDate>Fri, 12 Nov 2021 18:07:46 GMT</pubDate>
-            <description><![CDATA[Remember this article about exadrums becoming an official Debian package?
-It's now time to play (exa)drums on your Raspberry Pi.
-The Raspberry Pi Foundation released the latest Raspberry Pi OS bullseye a few days ago, and as you may have guessed, it includes exadrums packages:
-
-Now, you simply have to type sudo apt install exadrums into a terminal to install exadrums on your Raspberry Pi.]]></description>
-            <content:encoded><![CDATA[
-Remember this article about [exadrums becoming an official Debian package](article/debian-bullseye)?
-It's now time to play (exa)drums on your Raspberry Pi.
-The Raspberry Pi Foundation released the latest Raspberry Pi OS *bullseye* a few days ago, and as you may have guessed, it includes exadrums packages:
-
-![image](/images/raspberry-pi-os-bullseye/screenshot.png)
-
-Now, you simply have to type `sudo apt install exadrums` into a terminal to install exadrums on your Raspberry Pi.
-
-<!--more-->
-
-It took some time to get to that point, but you get exadrums 0.6.0, which fairly recent, and works on my Roland TD-4KP drum set.
-If you'd like to try exadrums with your TD-4KP drum set, it's quite easy.
-First of all, you'll need to install *zip*, as it's not installed by default: `sudo apt install zip`.
-Then, you can go to the following page: https://github.com/SpintroniK/exadrums-data/tree/TD-4KP and follow the instructions.
-
-Obviously, the project is still under development and future versions will support more inputs, and have a lot of improvements.
-The official documentation is far from being complete, but I'll make sure to add guidelines to help install the latest version of exadrums on a Raspberry Pi. I will make sure the future versions work on the current version of Raspberry Pi OS *bullseye*. Stay tuned, new versions are coming!
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Future of exadrums]]></title>
-            <link>https://news.exadrums.com/article/the-future-of-exadrums</link>
-            <guid>https://news.exadrums.com/article/the-future-of-exadrums</guid>
-            <pubDate>Wed, 25 Aug 2021 14:48:20 GMT</pubDate>
-            <description><![CDATA[The future of exadrums is probably different than what you may think.
-So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.]]></description>
-            <content:encoded><![CDATA[
-The future of exadrums is probably different than what you may think.
-
-So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.
-
-<!--more-->
-
-A C++ user interface has its advantages, but exadrums could benefit from other languages. For instance,  a more "connected" experience would be easier to implement in Python or Javascript.
-
-And that's how I see the future of exadrums: a Connected Open Source Drum Module. Some things are already in the works, but others will take some time. However, I'll do my best to publish news more frequently, to keep you informed about the project.
-
-About that, the project website [exadrums.com](https://exadrums.com) will be online pretty soon! Hope you'll like it.
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[New Arduino Nano Every Trigger Board - Part 4]]></title>
             <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part4</link>
             <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part4</guid>
@@ -2434,6 +1863,1394 @@ So getting one sample every 14 µs means we can aim for 8928 samples per second 
 
 Next time I'll share the code, as it is now usable and I've tested it with my Roland TD17 e-drum.
 Stay tuned!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 5]]></title>
+            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</link>
+            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part5</guid>
+            <pubDate>Wed, 15 Jun 2022 18:25:57 GMT</pubDate>
+            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 4.
+As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
+
+I've been able to test it with my Roland TD17 and it works very well.
+In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
+Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
+For my tests, I used hydrogen as a VST. It may not be the best, but it felt like playing with high quality material.]]></description>
+            <content:encoded><![CDATA[
+This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 4](/article/new-arduino-nano-every-board-part4).
+
+As mentioned in the previous parts, especially the first one, the eXaDrums TB08-SE board can be used together with an Arduino Nano Every and the eXaDrumino Nano Every code to make a MIDI drum module. Here's a picture of the board.
+
+![image](/images/new-arduino-nano-every-board/board.png)
+
+I've been able to test it with my Roland TD17 and it works very well.
+In particular, it is very impressive to see how much a tiny Arduino Nano Every can do.
+Thanks to MIDI, the sound quality is spectacular, and we get multilayer sounds, round-robin, etc. for free by using a VST that handles those things.
+For my tests, I used [hydrogen](https://hydrogen-music.org/) as a VST. It may not be the best, but it felt like playing with high quality material.
+
+<!--more-->
+
+## Context and Description
+
+This project is part of the eXaDrums project.
+It features a new board that allows to connect 8 drum pads to an Arduino Nano Every that, in turns, sends MIDI notes over USB.
+The board hardware and software are both compatible with eXaDrums, but it can also be used as a standalone device.
+
+The project name is eXadrumino Nano Every. It is a high performance firmware that allows to read eight analog inputs very fast and send MIDI notes over USB, or via the on-board USART. Using eXaDrums or a PC loaded with a VST, it allows to play drums with a very low latency.
+The board itself is called *eXaDrums TB08-SE*, and it is compatible with other microcontrollers than the Arduino Nano Every.
+
+Here's a brief reminder of the specs I gave in the first part of this series of articles:
+
+- Works on PC and Raspberry Pi.
+- Up to 7 single-zone pads + 1 hi-hat controller.
+- Compatible with Roland TD-9, TD-11, TD-15, TD-17, TD-25, and TD-27-based edrum kits (DB25 connector).
+- Sample rate greater than 70ksps (kilo samples per second).
+- Nearly 9000 samples per second and per channel (8928 in average).
+- Configurable trigger parameters: threshold, scan time and mask time (1ms step).
+- Configurable MIDI channel and notes.
+
+The last two are still under development.
+
+## How to Get the Board?
+
+I designed a board and got 5 prototypes PCBs.
+However, that board requires some refinements. I would like to make some changes before I share the whole PCB so that it is as good as it can be.
+Meanwhile, you can easily replicate the schematics, as it is a quite simple circuit.
+Every piezo is wired to a single operational amplifier that acts as a simple amplifier that adds a bias voltage to the signal.
+Here's how it looks:
+
+![Circuit](/images/new-arduino-nano-every-board/Piezo-circuit.png)
+
+The `Vcc` voltage is taken from the Arduino's 5V `power out` (pin number 12).
+At the `Vbias` pin, the voltage is 1.65V.
+It is obtained by using a voltage divider made of two 10k resistors that are wired to the 3.3V `power out` pin of the Arduino (pin number 2).
+
+The hi-hat controller input is a little different, and simpler.
+It consists of a single 4.7k resistor wired to the 3.3V pin of the Arduino on one side, and the hi-hat controller as well as the `+` input of voltage follower. It is the same divider for all operational amplifiers.
+
+And that's it, you know everything. There are 4 dual operational amplifiers on the board, which makes a total of 8 inputs.
+I got my prototypes from JLCPCB, using their SMT sevice, which means that I received assembled boards, that is, all the components were already soldered, except for the Raspberry Pi GPIO header socket.
+If you'd like to get you own board, I do recommend JLCPCB, the PCBs are good quality and affordable, the only downside is the shipping cost.
+Or, if you're patient, you can wait until I'm done with improving the board's layout, it shouldn't take too long.
+Again, I just want to make the best board possible, which will require a few changes.
+
+## Where is the Code?
+
+The code is freely available at [GitHub](https://github.com/SpintroniK/exadrumino-Nano-Every).
+You'll find more details as well as instructions that will help you flash the code to your Arduino.
+Note that the code is still a work in progress, some features are not their yet.
+The most important missing features are those that allow to change trigger and MIDI parameters via the USART, and save those parameters to the on-board EEPROM.
+
+## Previous and Next Parts
+
+So far there has been 4 parts published in this series of articles. This is the fifth one.
+Here's a reminder of the previous parts and what they talk about:
+
+- [Part 1](/article/new-arduino-nano-every-board-part1): New board specs, and how it works.
+- [Part 2](/article/new-arduino-nano-every-board-part2): Makefile and the way C++ has been used to write the firmware.
+- [Part 3](/article/new-arduino-nano-every-board-part3): Sending serial MIDI notes over USB.
+- [Part 4](/article/new-arduino-nano-every-board-part4): How to use the ADC to make an oscilloscope and read triggers voltages.
+
+There will be at least two more parts which will deal with the following topics:
+
+- [Part 6](/article/new-arduino-nano-every-board-part6): How to get an efficient real-time counter.
+- [Part 7](/article/new-arduino-nano-every-board-part7): How to filter the piezo output signal very fast to make a drum trigger.
+- Part 8: How to read and write values to the on-board EEPROM.
+- Maybe more...
+
+See you next time!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 6]]></title>
+            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part6</link>
+            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part6</guid>
+            <pubDate>Tue, 05 Jul 2022 16:11:31 GMT</pubDate>
+            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 5.
+In this part, we are going to talk about real-time counters.
+In particular, we'll see advantages of using a relative time reference.
+And we'll also see how the following figure helps us measure a time difference efficiently using a single byte as our time reference!
+]]></description>
+            <content:encoded><![CDATA[
+This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 5](/article/new-arduino-nano-every-board-part5).
+
+In this part, we are going to talk about real-time counters.
+In particular, we'll see advantages of using a relative time reference.
+
+And we'll also see how the following figure helps us measure a time difference efficiently using a single byte as our time reference!
+
+![delta](/images/new-arduino-nano-every-board/delta.png)
+
+<!--more-->
+
+## Absolute and Relative Time Reference
+
+The first important thing that we need to know is that we can't have an absolute time reference.
+Because our time reference needs to store the time in a variable, it will overflow at some point.
+That means, an absolute time reference remains absolute as long as the counter variable doesn't overflow.
+
+This is a major drawback, especially for limited hardware, where incrementing a 32-bit variable can be very expensive.
+An 8-bit microcontroller such as the ATMega4809 isn't able to increment a 32-bit variable in a single instruction.
+So, to avoid overflows, we need to either decrease the resolution of our counter, or store its value into a bigger variable.
+But, this won't prevent the counter from overflowing at some point anyway... So what can we do about that?
+
+Here's an example to illustrate our problem.
+Say we want to increment a counter every microsecond.
+We are playing drums an hour or two every day, and we'd like our time reference to be absolute.
+
+Let's say we want to store our counter value in a 32-bit integer.
+That leaves us with 4295 seconds before the counter overflows, which is slightly more than an hour.
+We have three solutions:
+
+- Use a 64-bit variable, which will cause an overflow after a few billion years.
+- Increase the resolution of our timer to, say 1 ms, so that we get nearly 50 days before the variable overflows.
+- Work with a relative time reference instead of an absolute one.
+
+All three options work, but we are interested in the latter, as this will allow us to store our count in a 16-bit, possibly a 8-bit variable.
+
+A relative time reference is a single variable that is incremented at regular interval.
+The only difference with an absolute time reference is that we know it will overflow at some point, and that's not a problem.
+
+## Relative Time Reference
+
+### How it Works
+
+Contrary to the absolute time reference, the relative time reference needs to be compared to another variable.
+For instance, if a drum pad is hit, we get the value of our relative time reference (counter) and memorize it.
+After some time, we are going to check how much time has elapsed since we've memorized the time reference value.
+
+### Practical Example
+
+First of all, we need to state the requirements for our time reference.
+We'd like to make a drum module, so the time reference will be used to manage the triggers states.
+That includes the trig time, scan time, and mask time.
+For those values, it would be nice to have a resolution of 0.1 or 0.5 ms, something like that.
+However, I will choose a step of 1 ms.
+The main reason for that, is that 0.1 ms is too small and 0.5 ms could lead to confusion...
+
+Let's say we use a 8-bit variable for our counter.
+It is incremented every millisecond, so it can count from zero to 255 ms.
+And it does so continuously until it overflows and goes back to zero.
+
+Now if a drum pad is hit, the trigger registers the current value of the counter.
+Imagine that the value of the counter is 42. It is stored in a `trigTime` variable.
+We set the scan time to 4 ms, which means the scan time will be done when the counter reaches 46.
+The only thing we need to know is: is the counter greater or equal to 46.
+
+A problem arises if the counter overflows, though.
+Let's say the pad has been hit when the counter's value was 254.
+We'll know that the scan time is over when the counter's value will be greater or equal to 258.
+But our 8-bit variable will overflow before that, so we'll get the following sequence: 254, 255, 0, 1, 2, instead of 254, 255, 256, 257, 258.
+
+Fortunately, we can do something about that.
+Instead of using unsigned integers, we can use signed integers, but we're going to go over a few other details before we do so.
+We still use a 8-bit unsigned integer to store our counter's value, so it can go from 0 to 255.
+We do the same for our scan time variable.
+In order to determine if we have waited for a longer time than the scan time here's what we need to compute: `const uint8_t delta = trigTime + scanTime - currentTime;`.
+
+So far, we still use an unsigned integer, but, let's examine precisely what happens with the previous values.
+We have `trigTime = 254` and `scanTime = 4`.
+Here's what happens if we subtract the `currentTime` variable to the previous value:
+
+1. If `currentTime = 255` we get `delta =  254 + 4 - 255 = 3`.
+2. If `currentTime` overflows, for instance, `currentTime = 1`, we get `delta =  254 + 4 - 1 = 1`.
+3. If `currentTime` overflows, and we've waited longer than the scan time, for instance, `currentTime = 4`, we get `delta = 254 + 4 - 4 = 254`.
+
+### A Little Bit of Theory
+
+Now let's see what happens for a different value of `trigTime`: `trigTime = 120`, and consider a longer scanTime: `scanTime = 100`.
+
+1. If `currentTime = 128` we get `delta =  120 + 100 - 128 = 92`.
+2. If `currentTime` doesn't overflow, for instance, `currentTime = 200`, we get `delta =  120 + 100 - 200 = 20`.
+3. If `currentTime` doesn't overflow, and we've waited longer than the scan time, for instance, `currentTime = 240`, we get `delta = 120 + 100 - 240 = 236`.
+
+We see something interesting here, for cases 1 and 2, delta remains below 127, but in both cases, point number 3 gives us a value that is above 128.
+This is understandable, because if `currentTime >= trigTime + scanTime`, `deltat = rigTime + scanTime - currentTime` goes below zero.
+But with unsigned integers, that means `delta` is now 255 minus something, so we get 254 or 236 in the second third case.
+Notice how the result is the same whether the value overflows or not!
+
+What that means is that perhaps we should treat `delta` as a signed integer.
+It's important to note that, even if we treat `delta` as a signed integer, the underlying binary value of `delta` remains the same.
+
+A signed 8-bit integer goes from -128 to 127. The most significant bit, or MSB, determines the sign.
+If that bit is set to 1, the value is negative, otherwise, it is positive.
+So, if we count from zero, the value goes like this: 0, 1, 2, 3, ..., 126, 127, -128, -127, -126, ..., -3, -2, -1.
+Which is to be compared to a unsigned integer that goes like: 0, 1, 2, 3, ..., 126, 127, 128, 129, 130, ..., 253, 254, 255.
+Both sequences are different representations of the same binary value.
+
+This means that `delta` is negative if the elapsed time since the trig time is longer than the scan time.
+Back to our first example, but this time using the signed representation of delta:
+
+1. If `currentTime = 255` we get `delta =  254 + 4 - 255 = 3`.
+2. If `currentTime` overflows, for instance, `currentTime = 2`, we get `delta =  254 + 4 - 2 = 0`.
+3. If `currentTime` overflows, and we've waited longer than the scan time, for instance, `currentTime = 4`, we get `delta = 254 + 4 - 4 = -2`.
+
+We have the following three cases:
+
+- If we have waited less than the scan time duration, the value is positive.
+- If we have waited exactly the duration of the scan time, the value is zero.
+- If we have waited more than the scan time duration, the value is negative.
+
+Let's visualize what's happening here.
+
+![delta](/images/new-arduino-nano-every-board/delta.png)
+
+The value of `delta` reaches 0 when the elapsed time since the trig time is exactly the scan time.
+For an unsigned integer, the next value is 255, and if we cast `delta` to a signed integer, it is -1.
+There are a few options to detect the transition:
+
+- We could simply test if the unsigned representation of `delta` is greater or equal to 128.
+- We could test the MSB of the unsigned representation of `delta`.
+- Or we could cast `delta` to a signed integer an check if the value is negative.
+
+I like the latter the most because it gives us a useful information for free: the elapsed time since the end of the scan time.
+That time is equal to `-delta`.
+However, there's one thing that I didn't mention: we loose half of the values of our 8-bit integer.
+All three options above lead to the same result, we can now only measure time differences that go from 0 to 128ms.
+
+If you'd like a to read a slightly different explanation of this idea, please read the [following article from Lucky Resistor](https://luckyresistor.me/2019/07/10/real-time-counter-and-integer-overflow/).
+
+## Using TCB0 as a Real Time Counter
+
+We are already using the TCA counter to trigger the ADC conversions, so we are going to use the TCB0 timer/counter instead.
+
+### Configure TCB0 and Handle Interrupts
+
+The TCB timer/counter can do a lot of things, but we're only going to use it as a counter here.
+First of all, we define a class to handle the counters interrupts:
+
+```cpp
+class TCBInterrupts
+{
+
+public:
+    TCBInterrupts() = delete;
+    ~TCBInterrupts() = delete;
+
+private:
+
+    static void TCB0Overflow() __asm__("__vector_12") __attribute__((__signal__, __used__, __externally_visible__));
+    static void TCB1Overflow() __asm__("__vector_13") __attribute__((__signal__, __used__, __externally_visible__));
+
+};
+```
+
+And yes, "counters" with an "s", as there are 4 TCB timers.
+Note that I implemented the interrupts for TCB0 and TCB1 only.
+
+Now let's add a little helper to choose the right clock for TCB0:
+
+```cpp
+enum class TCBClock
+{
+    Div1,
+    Div2,
+    TCA
+};
+```
+
+We'll use the same clock as TCA.
+And now a class to configure the TCB counters:
+
+```cpp
+template <uint8_t nb>
+class TCB
+{
+
+public:
+    TCB() = delete;
+    ~TCB() = delete;
+
+    static constexpr void EnableInterrupts()
+    {
+        tcb().INTCTRL =  TCB_CAPT_bm;
+    }
+
+    static constexpr void ResetInterrupt()
+    {
+        tcb().INTFLAGS |= TCB_CAPT_bm;
+    }
+
+    static constexpr void SetCompareOrCapture(uint16_t value)
+    {
+        tcb().CCMP = value;
+    }
+
+    static constexpr void Enable()
+    {
+        tcb().CTRLA |= TCB_ENABLE_bm;
+    }
+
+    template <TCBClock clock>
+    static constexpr void SetClock()
+    {
+        switch(clock)
+        {
+            case TCBClock::Div1: tcb().CTRLA |= TCB_CLKSEL_CLKDIV1_gc; break;
+            case TCBClock::Div2: tcb().CTRLA |= TCB_CLKSEL_CLKDIV2_gc; break;
+            case TCBClock::TCA: tcb().CTRLA |= TCB_CLKSEL_CLKTCA_gc; break;
+        }
+    }
+
+private:
+
+    static constexpr auto& tcb()
+    {
+        switch(nb)
+        {
+            case 0: return TCB0;
+            case 1: return TCB1;
+            case 2: return TCB2;
+            case 3: return TCB3;
+            default: static_assert(nb <= 3, "Wrong TCB number.");
+        }
+    }
+
+};
+
+```
+
+The functions names are self-explanatory.
+
+### A Real-Time Counter
+
+Before we continue, we need one more ingredient: a counter.
+To that end, I'll make a class template that will allow to choose the type of variable that the counter uses.
+
+```cpp
+template <typename T>
+class Counter
+{     
+
+public:
+
+    Counter() = default;
+    ~Counter() = default;
+
+    constexpr T GetCount()
+    {
+        return count;
+    }
+
+    constexpr void Increment()
+    {
+        ++count;
+    }
+
+private:
+
+    T count{};
+};
+```
+
+And that's it, now we can add all these niceties to our main function.
+
+```cpp
+
+#include "Adc.hpp"
+#include "Counter.hpp"
+#include "TCB.hpp"
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+using Adc0 = Adc<Adc0Addr, Adc8bitType>;
+using Tcb = TCB<0>;
+
+Counter<uint8_t> clock{};
+
+void Analog::AdcInterrupts::ResReady()
+{
+    Adc0::ResetInterrupt();
+    trigger.Process(ADC0.RES, clock.GetCount());
+}
+
+void Timing::TCBInterrupts::TCB0Overflow()
+{
+    Tcb::ResetInterrupt();
+    clock.Increment();
+}
+
+int main()
+{
+
+    while(1)
+    {
+        ;
+    }
+
+    return 0;
+}
+
+```
+
+We use the relative time reference in the ADC interrupt, so that we know how much time has elapsed since we've received the previous samples.
+In this interrupt there's a `trigger.Process()` function.
+It is the function that will process the ADC data, together with the time reference, to compute the trigger state.
+Here's an example that shows how this function can use the relative time reference:
+
+```cpp
+void Trigger::Process(uint8_t data, uint8_t time) const
+{
+    // [...]
+
+    const uint8_t delta = this->trigTime + this->scanTime - time;
+
+    if(static_cast<int8_t>(delta) <= 0)
+    {
+        // ...
+    }
+
+    // [...]
+}
+```
+
+At some point in time, the ADC value exceeds a certain threshold, which in turn, puts the trigger in scan state.
+The trigger remains in that state for `scanTime` milliseconds.
+During that time, the peak value of the signal is computed.
+
+The question we answer here is: how do we know when the scan time is over?
+And the answer is simple: we check whether the signed representation of `delta` is positive or negative.
+As soon as it becomes a negative value, we know that the scan time is over and we're done computing the signal's peak value.
+Thus, we can go on and put the trigger in its next state, etc.
+
+There we are, with a single byte we get a relative time reference that we can use to measure delays from 1 to 128 ms.
+We don't need it to be an absolute time reference as long as we use a variable to memorize the start of the delay (`trigTime`).
+Using this method, we can measure as many delays as we want as long they remain under 128 ms, and that we use a byte for each delay to memorize the when it starts.
+Of course this also works if we use a 16-bit variable (or even bigger), it is just faster to use a 8-bit variable on a 8-bit CPU.
+
+## What's Next?
+
+Next time we'll talk about signal processing.
+In particular, we will see how to make a high-pass filter that performs well with a 8-bit microcontroller.
+
+See you next time!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New Arduino Nano Every Trigger Board - Part 7]]></title>
+            <link>https://news.exadrums.com/article/new-arduino-nano-every-board-part7</link>
+            <guid>https://news.exadrums.com/article/new-arduino-nano-every-board-part7</guid>
+            <pubDate>Sun, 01 Jan 2023 11:32:42 GMT</pubDate>
+            <description><![CDATA[This is a series of posts. If you haven't read the previous part here's a link to it: New Arduino Nano Every Trigger Board - Part 6.
+In this part, we are going to talk about digital filtering.
+The board that was made for this project adds a DC offset to the signal to keep the voltage above 0V, as shown below.
+
+If we get bytes from the ADC, the values are going to be centered around 127, and go from 0 to 255.
+However, the offset won't always be exactly 127, as it depends on a voltage source and a voltage divider.
+The offset may vary over time, so we can't really subtract 127 to the value read by the ADC.
+This is why we need a high-pass filter.]]></description>
+            <content:encoded><![CDATA[
+This is a series of posts. If you haven't read the previous part here's a link to it: [New Arduino Nano Every Trigger Board - Part 6](/article/new-arduino-nano-every-board-part6).
+
+In this part, we are going to talk about digital filtering.
+The board that was made for this project adds a DC offset to the signal to keep the voltage above 0V, as shown below.
+
+![Circuit](/images/new-arduino-nano-every-board/Piezo-circuit.png)
+
+If we get bytes from the ADC, the values are going to be centered around 127, and go from 0 to 255.
+However, the offset won't always be exactly 127, as it depends on a voltage source and a voltage divider.
+The offset may vary over time, so we can't really subtract 127 to the value read by the ADC.
+This is why we need a high-pass filter.
+
+<!--more-->
+
+## High-pass Filter in Electronics
+
+In electronics, a high-pass filter is made of two components: a resistor and a capacitor.
+The capacitor naturally acts as a high-pass filter, but a resistor is required in order to control the cutoff frequency of the filter.
+
+For a first order, RC, high-pass filter, the cutoff frequency is given by fc = 1/(2πRC).
+For instance, the association of a 10 kΩ resistor and a 1 µF capacitor gives fc ≈ 16 Hz.
+The signal amplitude below 16 Hz will be attenuated, which means that any DC offset will be automatically removed.
+
+It means that, using such a high-pass filter, a signal that takes values from 0 to 255 while being centered around 127, will be shifted so that it is centered around zero and takes values that go from -127 to 128.
+As a side-effect, the lowest frequencies (below 16 Hz) will also be filtered, but in our case, that is negligible.
+
+## Algorithmic Implementation
+
+Without going into too much detail, the RC high-pass filter can be translated into equations that can then be translated into a simple algorithm.
+The output value `out` depends only on the input `in` and the values of R and C.
+Time is 'translated' to indices, so `i` represents the time.
+The output of the system is given by `out[i] = α × (out[i−1] + in[i] − in[i−1])`, where `α = RC / (RC + dt)`, `dt` being the elapsed time between samples `i` and `i+1`.
+So we only need to know the previous output sample, and the current and previous input samples to compute the new output value.
+
+This is fairly easy to implement, however, there is a problem.
+The above algorithm requires the use of floating-point number.
+When dealing with a 8-bit microcontroller, this can become problematic.
+
+Enter the world of fixed-point arithmetic!
+
+## Fixed-Point DC Blocking Filter
+
+### DC Blocking Filter
+
+A DC blocking filter is not exactly the same thing as a high-pass filter.
+Let's focus a little bit on [digital filtering](https://en.wikipedia.org/wiki/Digital_filter).
+When dealing with digital filtering, filters are described using the so called [Z-transform](https://en.wikipedia.org/wiki/Z-transform).
+One advantage I see in doing so, is that it's easy to reason about complex filters.
+
+For instance, let's consider a simple high-pass filter.
+In digital signal processing, its transfer function can be described as:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="T(z) = \frac{out(z)}{in(z)} = \frac{1 - z^{-1}}{1 - pz^{-1}}  ">
+  <mrow>
+    <mi>T</mi>
+    <mo stretchy="false">(</mo>
+    <mi>z</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi>o</mi>
+        <mi>u</mi>
+        <mi>t</mi>
+        <mo stretchy="false">(</mo>
+        <mi>z</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+        <mi>i</mi>
+        <mi>n</mi>
+        <mo stretchy="false">(</mo>
+        <mi>z</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mn>1</mn>
+        <mo>-</mo>
+        <msup>
+          <mrow>
+            <mi>z</mi>
+          </mrow>
+          <mrow>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
+      </mrow>
+      <mrow>
+        <mn>1</mn>
+        <mo>-</mo>
+        <mi>p</mi>
+        <msup>
+          <mrow>
+            <mi>z</mi>
+          </mrow>
+          <mrow>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
+      </mrow>
+    </mfrac>
+  </mrow>
+</math>
+
+The parameter *p* is a pole, and has a big influence on the filter's transfer function, as shown on the figure below:
+
+![HPFilter](/images/new-arduino-nano-every-board/hp.svg)
+
+By the way, I used Octave to create this figure, here's the code to replicate it:
+
+```matlab
+ps = [0 0.5 0.9 0.99];
+
+for p = ps
+
+    p
+    b = [1 -1];
+    a = [1 -p];
+
+
+    [h, w] = freqz(b, a);
+
+    n = length(w);
+    
+    plot(w(1:n/2), 20*log10(abs(h(1:n/2))), "linewidth", 3);
+    hold on;
+
+endfor
+
+xlabel('Freq. (rad/s)');
+ylabel('Gain (dB)');
+grid on;
+legend("show")
+legend("p = 0", "p = 0.5", "p = 0.9", "p = 0.99")
+set(gca, "linewidth", 3, "fontsize", 14)
+```
+
+What we'd like is to have something that's close to the curve given by *p = 0.99*, as it blocks DC values and keeps all higher frequencies.
+
+### Fixed-Point Arithmetic
+
+Clearly, the main advantage of fixed-point arithmetic is speed.
+The Arduino Nano Every doesn't have a floating-point unit, so every operation that involves floating-point numbers is super slow, as it requires a lot of instructions. Multiplying two floats (that are 32-bit numbers) takes several milliseconds, which is way too long for our purposes.
+
+Our goal is to find a way to perform the high-pass filtering operation using algorithms that operate on bytes.
+This will involve fixed-point operations, but will also require a few tricks to make things work as expected.
+
+### Fixed-Point DC Blocker
+
+We can use the previous equation to compute the current output value as a function of the previous output value, and the current and previous input values:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="y[n] = p y[n - 1] + x[n] - x[n - 1] ">
+  <mrow>
+    <mi>y</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mi>]</mi>
+    <mo>=</mo>
+    <mi>p</mi>
+    <mi>y</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mo>-</mo>
+    <mn>1</mn>
+    <mi>]</mi>
+    <mo>+</mo>
+    <mi>x</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mi>]</mi>
+    <mo>-</mo>
+    <mi>x</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mo>-</mo>
+    <mn>1</mn>
+    <mi>]</mi>
+  </mrow>
+</math>
+<br>
+
+Where *y* is the output and *x* is the input.
+Of course this formula is valid if we use floating-point numbers.
+However, we can notice that this is equation can be applied in two distinct steps:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="w[n] = x[n] - x[n-1] ">
+  <mrow>
+    <mi>d</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mi>]</mi>
+    <mo>=</mo>
+    <mi>x</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mi>]</mi>
+    <mo>-</mo>
+    <mi>x</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mo>-</mo>
+    <mn>1</mn>
+    <mi>]</mi>
+  </mrow>
+</math>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="y[n] = p\,y[n-1] + w[n] ">
+  <mrow>
+    <mi>y</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mi>]</mi>
+    <mo>=</mo>
+    <mi>p</mi>
+    <mi>y</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mo>-</mo>
+    <mn>1</mn>
+    <mi>]</mi>
+    <mo>+</mo>
+    <mi>d</mi>
+    <mi>[</mi>
+    <mi>n</mi>
+    <mi>]</mi>
+  </mrow>
+</math>
+<br>
+The first step represents a differentiator, and the second step a leaky integrator.
+The differentiator has the transfer function of the very first equation when p = 0, so it's basically a DC blocker, but it blocks more than just low frequencies.
+Thanks to the leaky integrator, those frequencies are less attenuated, so it's definitely what we want to obtain.
+
+### Understanding and Prototyping a Fixed-Point DC Blocker
+
+Using integers instead of floats results in quantization errors, especially due to the leaky integrator.
+Furthermore, how do we deal with *p*, whose value lies between 0 and 1?
+Let's assume that the input is an unsigned 8-bit integer, and the output is a signed 8-bit integer.
+The input values go from 0 to 255 whereas the output values go from -127 to 128.
+
+Before rushing into it, let's make a little detour and try to implement the DC blocker algorithm using Octave.
+We need to convert the previous equations into something we can use in a fixed-point algorithm.
+Here's what we have so far:
+
+- x<sub>n</sub> is the input of the DC blocker.
+- d<sub>n</sub> is the output of the differentiator.
+- y<sub>n</sub> is the output of the DC blocker.
+
+Now we're going to have to use the previous equation with integers, so at some point, we'll have a quantization that will introduce a quantization error: e<sub>n</sub>.
+The technique that we are going to use is called fraction-saving, it works very well when *p* is close to 1.
+It consists in memorizing the round-off error of the previous sample and subtract it to the next sample, to minimize that error.
+
+So now we need and extra variable to store the error.
+The thing is that it's possible to overflow the 8-bit capacity, because we'll add the previous value of the error, e<sub>n-1</sub>.
+We have no choice but to make our new variable a 16-bit integer to store the extra bit that might be required. Fortunately, the ATMega4809 can perform some 16-bit operations very efficiently, so that's not a big deal.
+To optimize things as much as possible, we'll use this variable to store the error as well as the current value of y<sub>n</sub>.
+
+It's now time to do some prototyping and testing.
+Let's call the new variable *acc*. We can store the quantized value of y<sub>n</sub> in the upper 9 bits (to avoid any overflow) of *acc* and e<sub>n</sub> in the lower 7 bits.  
+We'll use Octave to make sure everything works out before we implement the final filter in C++.
+
+To that end, we'll introduce three main variables, `prevX`, `prevY` and `acc`.
+The names speak for themselves.
+Our test will consist of an input of 100 samples that basically repeat the values 77 and 177 until the end of the sequence.
+This input signal is centered around 127 and oscillates from 77 to 177.
+If the DC component is removed, we'll end up with an output that is centered around 0 and goes from -50 to +50.
+
+Here's the code for our prototype, with p = 0.98:
+
+```matlab
+prevX = int16(0);
+prevY = int16(0);
+acc = int16(0);
+
+xa = repmat([uint8(77), uint8(177)], [1, 50]);
+
+t = linspace(0, length(xa), length(xa));
+
+y = [];
+
+for x = xa
+                                    % acc = y_{n-1} << 7 - e_{n-1}
+  acc = acc - prevX;                % acc = acc - x_{n-1} << 7
+  prevX = bitshift(int16(x), 7);    % prevX = x_n << 7
+  acc = acc + prevX;                % acc = acc + x_n << 7 - e_{n-1}
+  % d_n is now in the upper 9 bits of acc
+  % acc = (y_{n-1} + d_n )<< 7 - e_{n-1}
+  acc = acc - prevY * 256*(1 - .98);% acc = acc - y_{n-1} * (1<<8 * (1 - p)) - e_{n-1}
+  % acc = [ y_{n-1} - y_{n-1} * (1<<8 * (1 - p)) + d_n ] << 7 - e_{n-1}
+  prevY = bitshift(acc, -7);        % prevY = acc >> 7 + e_n (error introduced by quantization)
+  y = [y; prevY];
+
+endfor
+
+plot(t, y)
+```
+
+And here's the result:
+
+![DCBlocker](/images/new-arduino-nano-every-board/dc_blocker.svg)
+
+As expected, after a transient phase, the signal oscillates between -50 ans 50.
+The transient phase is tightly related to the value of *p*.
+The closer *p* gets to 1, the longer the transient.
+
+Now, let's dig into the code and got through the comments.
+First of all, let's assume that the loop already iterated at least once.
+The *acc* variable holds y<sub>n-1</sub> << 7 - e<sub>n-1</sub>.
+
+Firstly, we perform the following operation: acc = acc - x<sub>n-1</sub> << 7, which means that the upper 9 bits of *acc* are now y<sub>n-1</sub> - x<sub>n-1</sub>.
+We then store x<sub>n</sub> into the upper 9 bits of *prevX*, and add that value to *acc*.
+At this point, we have acc = y<sub>n-1</sub> - x<sub>n-1</sub> - e<sub>n-1</sub> (remember that the initial value of *acc* held the value -e<sub>n-1</sub> in its lowest bits).
+
+Alright, now we encounter that line: `acc = acc - prevY * 256*(1 - .98);`.
+Without going into too much detail, if we take the previous equations, we get:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="y_n = Q{p\,y_{n-1} + d_n - e_{n-1}}  ">
+  <mrow>
+    <msub>
+      <mrow>
+        <mi>y</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>Q</mi>
+    <mi>{</mi>
+    <mi>p</mi>
+    <mspace width="0.167em"/>
+    <msub>
+      <mrow>
+        <mi>y</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+        <mo>-</mo>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+      <mrow>
+        <mi>d</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <mo>-</mo>
+    <msub>
+      <mrow>
+        <mi>e</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+        <mo>-</mo>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mi>}</mi>
+  </mrow>
+</math>
+<br>
+
+where *Q* represents the quantization, which is of course implicit.
+Notice that we are feeding the quantization error from the previous iteration of the loop (e<sub>n-1</sub>) on purpose.
+The error for the n<sup>th</sup> iteration is thus given by:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="e_n = Q{p\,y_{n-1} + d_n - e_{n-1}} - \left(p\,y_{n-1} + d_n - e_{n-1}\right) = y_n - \left(p\,y_{n-1} + d_n - e_{n-1}\right) ">
+  <mrow>
+    <msub>
+      <mrow>
+        <mi>e</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>Q</mi>
+    <mi>{</mi>
+    <mi>p</mi>
+    <mspace width="0.167em"/>
+    <msub>
+      <mrow>
+        <mi>y</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+        <mo>-</mo>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+      <mrow>
+        <mi>d</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <mo>-</mo>
+    <msub>
+      <mrow>
+        <mi>e</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+        <mo>-</mo>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mi>}</mi>
+    <mo>-</mo>
+    <mrow>
+      <mo>(</mo>
+      <mrow>
+        <mi>p</mi>
+        <mspace width="0.167em"/>
+        <msub>
+          <mrow>
+            <mi>y</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mrow>
+            <mi>d</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>-</mo>
+        <msub>
+          <mrow>
+            <mi>e</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+      </mrow>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mrow>
+        <mi>y</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <mo>-</mo>
+    <mrow>
+      <mo>(</mo>
+      <mrow>
+        <mi>p</mi>
+        <mspace width="0.167em"/>
+        <msub>
+          <mrow>
+            <mi>y</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mrow>
+            <mi>d</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>-</mo>
+        <msub>
+          <mrow>
+            <mi>e</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+      </mrow>
+      <mo>)</mo>
+    </mrow>
+  </mrow>
+</math>
+<br>
+
+When you think about it, it is quite obvious!
+Let's re-order the terms, without forgetting that y<sub>n</sub> has been subject to quantization:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="y_n = \left(p\,y_{n-1} + d_n - e_{n-1} + e_n\right) ">
+  <mrow>
+    <msub>
+      <mrow>
+        <mi>y</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <mo>=</mo>
+    <mrow>
+      <mo>(</mo>
+      <mrow>
+        <mi>p</mi>
+        <mspace width="0.167em"/>
+        <msub>
+          <mrow>
+            <mi>y</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mrow>
+            <mi>d</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>-</mo>
+        <msub>
+          <mrow>
+            <mi>e</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mrow>
+            <mi>e</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+          </mrow>
+        </msub>
+      </mrow>
+      <mo>)</mo>
+    </mrow>
+  </mrow>
+</math>
+<br>
+
+The reason why y<sub>n-1</sub> is already stored in *acc* is that it is simply the last line of our loop.
+Since we've already ran through it at least once, that makes sense.
+However, this value is y<sub>n-1</sub>, and not p.y<sub>n-1</sub>.
+That's too bad because the previous equation contains p.y<sub>n-1</sub>...
+Let's rewrite it so that it fits our needs:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="y_n = \left(y_{n-1} - (1 - p)\,y_{n-1} + d_n - e_{n-1} + e_n\right) ">
+  <mrow>
+    <msub>
+      <mrow>
+        <mi>y</mi>
+      </mrow>
+      <mrow>
+        <mi>n</mi>
+      </mrow>
+    </msub>
+    <mo>=</mo>
+    <mrow>
+      <mo>(</mo>
+      <mrow>
+        <msub>
+          <mrow>
+            <mi>y</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>-</mo>
+        <mo stretchy="false">(</mo>
+        <mn>1</mn>
+        <mo>-</mo>
+        <mi>p</mi>
+        <mo stretchy="false">)</mo>
+        <mspace width="0.167em"/>
+        <msub>
+          <mrow>
+            <mi>y</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mrow>
+            <mi>d</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>-</mo>
+        <msub>
+          <mrow>
+            <mi>e</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+          <mrow>
+            <mi>e</mi>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+          </mrow>
+        </msub>
+      </mrow>
+      <mo>)</mo>
+    </mrow>
+  </mrow>
+</math>
+<br>
+
+Now the line `acc = acc - prevY * 256*(1 - .98);` makes a lot of sense, as this is almost exactly the equation we've just written.
+I say almost for two reasons.
+The first one is that the term e<sub>n</sub> is missing for now, as it is introduced by the next line of code.
+The other reason is that the equation doesn't show the `256` that is basically a normalization factor so that *p* no longer acts on floats, but on bytes instead (8-bit integers).
+By the way, in practice, the value 256*(1 - .98) is not 5.12 as it should be because we're not dealing with floating-point numbers.
+So, we should replace that whole expression by 5, which means that p = 0.9805.
+
+That means not all values of *p* are allowed.
+For instance, excluding 1, the first 10 values of *p* are: 0.9961, 0.9922, 0.9883, 0.9844, 0.9805, 0.9766, 0.9727, 0.9688, 0.9648, 0.9609.
+
+Now all that's left is the step where the quantization actually happens, which corresponds to the very last operation of the loop.
+That line translates to `prevY = acc >> 7;` in C++.
+You may notice that this means *prevY* could be an 8-bit integer instead of a 16-bit one, but that would make the code a tad more complex, so we'll keep a 16-bit integer.
+
+Since the quantization happens here, this line is equivalent to prevY = y<sub>n</sub> + e<sub>n</sub> - e<sub>n-1</sub>, because we introduced the term -e<sub>n-1</sub> a few lines ago on purpose.
+As we can see, this explains why we assumed that acc = y<sub>n-1</sub> << 7 - e<sub>n-1</sub> at the beginning.
+This also shows that we found a way to compensate for the quantization error.
+
+## Fixed-Point DC Blocker Implementation in C and C++
+
+So far, everything behaves as expected.
+Thanks to a few tricks, we've optimized things quite a lot and are down to a few lines of code to perform the DC blocking operation.
+All the operations that are involved operate on 16-bit integer. They are mainly additions and subtraction, however, there is one multiplication involved.
+
+We know that we need to multiply *prevY* by 256*(1 - p).
+As I have already explained, using integer types limits the possible values.
+That's why there are only 10 possible values between p = 0.996 and p = 0.96.
+But if we restrict the values even more, we can make sure that our final multiplication end-up being a multiple of two.
+This means that it won't be a multiplication anymore, but a simple bit shift operation, which is a lot more efficient.
+Simply put, that limitation leads to these four values between 0.996 and 0.96: 0.9961, 0.9922, 0.9844, 0.9688.
+
+Let's choose p = 0.9922, that lead us to a multiplication by 2.
+Here's how it translates in C++ ([and can easily be adapted to C](https://dspguru.com/dsp/tricks/fixed-point-dc-blocking-filter-with-noise-shaping/)):
+
+```cpp
+
+static int16_t prevX = 0;
+static int16_t prevY = 0;
+static int16_t acc = 0;
+
+int8_t RemoveDC(uint8_t x)
+{
+
+  acc   -= prevX;
+  prevX = static_cast<int16_t>(x) << 7;
+  acc   += prevX;
+  acc   -= prevY << 2; // p = .9922 => 256 * (1 - p) = 2
+  prevY = acc >> 7;
+
+  return static_cast<int8_t>(prevY);
+}
+```
+
+Here we are, only 5 lines of code to perform a DC blocking operation, using only additions, subtractions, and bit shift operations.
+On a ATMega4809 clocked at 16MHz that is less than 10µs of execution time, that's just perfect!
+
+Before concluding, I think it's worth mentioning that the transient response of the DC blocker lasts for about 350 samples.
+That's not a lot, rounding up to 400 samples, that's 4ms at 100ksps, not too bad.
+
+## From a DC Blocker to a C++ Drum Trigger
+
+So, what happens after we remove the DC offset from the input signal?
+In the [previous part of this series](/article/new-arduino-nano-every-board-part6), we've imagined a `Trigger` class that would contain a `Process` method:
+
+```cpp
+void Trigger::Process(uint8_t data, uint8_t time) const
+{
+    // [...]
+
+    const uint8_t delta = this->trigTime + this->scanTime - time;
+
+    if(static_cast<int8_t>(delta) <= 0)
+    {
+        // ...
+    }
+
+    // [...]
+}
+```
+
+We knew what to do with the `time` variable, now we know what to do with the `data` variable.
+First of all, it has to go through the `RemoveDC` function, and then, we can take the absolute value of the filtered signal and apply some peak detection and other algorithms to it.
+The code is on [Github](https://github.com/SpintroniK/exadrumino-Nano-Every/blob/de670fde4b6f3fe18d61a9d21d77866de8024d00/src/Module/Trigger.hpp#L25), but if you only care about the `Process` method, here's a snippet:
+
+```cpp
+void Process(uint8_t value, uint8_t currentTime) noexcept
+{
+    acc   -= prevX;
+    prevX = static_cast<int16_t>(value) << 7;
+    acc   += prevX;
+    acc   -= prevY << 2;
+    prevY = acc >> 7;
+
+    const uint8_t velocity = ::abs(prevY);
+
+
+    if(state == 0) // Idle
+    {
+        if(velocity >= threshold)
+        {
+            trigTime = currentTime;
+            state = 1;
+            return;
+        }
+    }
+
+    if(state == 1) // Scan
+    {
+        maxVelocity = velocity > maxVelocity ? velocity : maxVelocity;
+        maxVelocity = maxVelocity >= 127 ? 127 : maxVelocity;
+
+        const uint8_t delta = trigTime + scanTime - currentTime;
+        if(static_cast<int8_t>(delta) <= 0)
+        {
+            state = 2;
+            trigVelocity = maxVelocity;
+            return;
+        }
+    }
+
+    if(state == 2)
+    {
+        const uint8_t delta = trigTime + maskTime - currentTime;
+        if(static_cast<int8_t>(delta) <= 0)
+        {
+            state = 0;
+            maxVelocity = 0;
+            return;
+        }
+    }
+
+    return;
+}
+```
+
+It is basically a state machine.
+
+## What's Next?
+
+Next time we'll talk about how to read and write values to the Arduino's EEPROM.
+
+Happy new year, and see you next time!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[New SPI Sensors Configurator ⇒ More Trigger Inputs]]></title>
+            <link>https://news.exadrums.com/article/new-spi-sensors-config</link>
+            <guid>https://news.exadrums.com/article/new-spi-sensors-config</guid>
+            <pubDate>Sat, 11 Dec 2021 13:31:28 GMT</pubDate>
+            <description><![CDATA[Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
+This features aims to provide a way to add as many SPI devices as you want.
+Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
+This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
+]]></description>
+            <content:encoded><![CDATA[
+Exadrums 0.7.0 is currently under development. The biggest feature of this release is the addition of configurable SPI (Serial Peripheral Interface) devices.
+This features aims to provide a way to add as many SPI devices as you want.
+Currently supported devices are of the MCP3XXX family, including MCP3008, MCP3204, and MCP3208, but there's a good chance more chips will be added before and after the release of this new version.
+
+This means that it'll become possible to add more inputs to the trigger input board, by adding more analog to digital converters.
+
+![image](/images/new-spi-sensors-config/spidev-config.png)
+
+<!--more-->
+
+## How SPI Devices Work
+
+An SPI analog to digital converter takes in analog data, digitizes it, and sends it to a Raspberry Pi using the SPI bus.
+SPI communication offers many advantages, and one of them is that it's quite easy to communicate with several devices.
+The first eXaDrums input board uses a single MCP3008 chip, which limits the number of inputs to 8.
+Adding another MCP3008 would increase that number to 16, and if you want even more inputs, you could add a third one.
+
+The Raspberry Pi offers at least one SPI interface that has two `Chip Select` inputs (also called *Chip Enable*).
+So, with a single SPI bus, `SPI0`, the Raspberry Pi can communicate with two devices, by changing the states of the chip selects pins `CE0` and `CE1`.
+
+But that's not it. Recent Raspberry Pis have another SPI *bus*: `SPI1`. And it can handle up to three devices via its three chip select inputs `CE0`, `CE1`, and `CE2`.
+So, in theory it's possible to have up to 5 SPI Analog to Digital converters. Imagine 5 MCP3008, that would mean up to 40 inputs!
+Note that the Raspberry Pi 4 has even more SPI buses, so that should be more than enough, even for a big drum kit with a lot of triggers.
+
+It's important to note that SPI devices are grouped by bus and chip select, and this is exactly how the SPI configuration works in exadrums.
+
+## How to Configure SPI Devices
+
+Only supported devices are allowed in the SPI configuration dialog. They are currently limited to MCP3008, MCP3204, and MCP3208.
+Each device must be associated to a bus and a chip select.
+And that's basically it.
+
+Here is an example.
+You make a trigger input board that needs to handle up to 16 analog inputs.
+The MCP3008 is a good choice, so you decide to use two of them.
+You can either have one of them use the `SPI0`, and the other the `SPI1`, or you can have them both use `SPI1` and choose to use two different chip selects, i.e. `CE0` and `CE1`.
+So your configuration is:
+|  Name   | Bus | CS |
+|---------|-----|----|
+| MCP3008 |  0  |  0 |
+| MCP3008 |  0  |  1 |
+
+And this is exactly how you can configure your SPI devices in exadrums (see screenshot above).
+By doing that, you'll be able to create up to 16 triggers, numbered 0 to 15, and everything will work out of the box.
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Raspberry Pi OS - Bullseye]]></title>
+            <link>https://news.exadrums.com/article/raspberry-pi-os-bullseye</link>
+            <guid>https://news.exadrums.com/article/raspberry-pi-os-bullseye</guid>
+            <pubDate>Fri, 12 Nov 2021 18:07:46 GMT</pubDate>
+            <description><![CDATA[Remember this article about exadrums becoming an official Debian package?
+It's now time to play (exa)drums on your Raspberry Pi.
+The Raspberry Pi Foundation released the latest Raspberry Pi OS bullseye a few days ago, and as you may have guessed, it includes exadrums packages:
+
+Now, you simply have to type sudo apt install exadrums into a terminal to install exadrums on your Raspberry Pi.]]></description>
+            <content:encoded><![CDATA[
+Remember this article about [exadrums becoming an official Debian package](article/debian-bullseye)?
+It's now time to play (exa)drums on your Raspberry Pi.
+The Raspberry Pi Foundation released the latest Raspberry Pi OS *bullseye* a few days ago, and as you may have guessed, it includes exadrums packages:
+
+![image](/images/raspberry-pi-os-bullseye/screenshot.png)
+
+Now, you simply have to type `sudo apt install exadrums` into a terminal to install exadrums on your Raspberry Pi.
+
+<!--more-->
+
+It took some time to get to that point, but you get exadrums 0.6.0, which fairly recent, and works on my Roland TD-4KP drum set.
+If you'd like to try exadrums with your TD-4KP drum set, it's quite easy.
+First of all, you'll need to install *zip*, as it's not installed by default: `sudo apt install zip`.
+Then, you can go to the following page: https://github.com/SpintroniK/exadrums-data/tree/TD-4KP and follow the instructions.
+
+Obviously, the project is still under development and future versions will support more inputs, and have a lot of improvements.
+The official documentation is far from being complete, but I'll make sure to add guidelines to help install the latest version of exadrums on a Raspberry Pi. I will make sure the future versions work on the current version of Raspberry Pi OS *bullseye*. Stay tuned, new versions are coming!
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Future of exadrums]]></title>
+            <link>https://news.exadrums.com/article/the-future-of-exadrums</link>
+            <guid>https://news.exadrums.com/article/the-future-of-exadrums</guid>
+            <pubDate>Wed, 25 Aug 2021 14:48:20 GMT</pubDate>
+            <description><![CDATA[The future of exadrums is probably different than what you may think.
+So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.]]></description>
+            <content:encoded><![CDATA[
+The future of exadrums is probably different than what you may think.
+
+So far, exadrums is a two-part software, there's a library, libexadrums, and another component: the user interface. The whole drum module is in the library, and exposes a C++ API. That means libexadrums can be used with other languages, such as Python, Javascript, etc.
+
+<!--more-->
+
+A C++ user interface has its advantages, but exadrums could benefit from other languages. For instance,  a more "connected" experience would be easier to implement in Python or Javascript.
+
+And that's how I see the future of exadrums: a Connected Open Source Drum Module. Some things are already in the works, but others will take some time. However, I'll do my best to publish news more frequently, to keep you informed about the project.
+
+About that, the project website [exadrums.com](https://exadrums.com) will be online pretty soon! Hope you'll like it.
 ]]></content:encoded>
         </item>
     </channel>
