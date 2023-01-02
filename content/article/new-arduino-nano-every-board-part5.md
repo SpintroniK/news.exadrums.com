@@ -80,8 +80,8 @@ Here's a reminder of the previous parts and what they talk about:
 
 There will be at least two more parts which will deal with the following topics:
 
-- Part 6: How to get an efficient real-time counter.
-- Part 7: How to filter the piezo output signal very fast to make a drum trigger.
+- [Part 6](/article/new-arduino-nano-every-board-part6): How to get an efficient real-time counter.
+- [Part 7](/article/new-arduino-nano-every-board-part7): How to filter the piezo output signal very fast to make a drum trigger.
 - Part 8: How to read and write values to the on-board EEPROM.
 - Maybe more...
 
